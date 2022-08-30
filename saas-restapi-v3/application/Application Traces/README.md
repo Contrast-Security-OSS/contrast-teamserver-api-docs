@@ -1,0 +1,25 @@
+## Application Traces
+### Description
+Trace methods
+### Methods
+- [ /ng/{orgUuid}/traces/{appId} (DELETE) ]( ./1032dbaee2d8beb89ebb616138ed0882.md)
+- [ /ng/{orgUuid}/traces/{appId}/export/csv (POST) ]( ./f46f1c6b08ee4eb098e13078652909e2.md)
+- [ /ng/{orgUuid}/traces/{appId}/export/csv/all (POST) ]( ./7f415739aead8db6dc13e767c95a2c5f.md)
+- [ /ng/{orgUuid}/traces/{appId}/export/xml (POST) ]( ./67bd4d330153c350bdeb9819ddb5d2aa.md)
+- [ /ng/{orgUuid}/traces/{appId}/export/xml/all (POST) ]( ./18b8fe387dd8229613eb2c7ee9e8faa2.md)
+- [ /ng/{orgUuid}/traces/{appId}/filter/{traceUuid} (GET) ]( ./bda519ccc66761b26ffefc3c8ff6127f.md)
+- [ /ng/{orgUuid}/traces/{appId}/ids (GET) ]( ./a86c9d7d27fd7775f7362c9f9dd4385e.md)
+- [ /ng/{orgUuid}/traces/{appId}/policy/violations (GET) ]( ./c53118ce45ed20be30575ac4cd21056c.md)
+- [ /ng/{orgUuid}/traces/{appId}/quick (GET) ]( ./f97aa322c9b97e3f93c0e6ed70291fda.md)
+- [ /ng/{orgUuid}/traces/{appId}/snapshots/discovery (GET) ]( ./410cede7970230137d14dc601dae2f6c.md)
+- [ /ng/{orgUuid}/traces/{appId}/snapshots/discovery (POST) ]( ./311958d7be90357dfe52ac4bbbf1b91c.md)
+- [ /ng/{orgUuid}/traces/{appId}/snapshots/severity (GET) ]( ./0fd02e0ae9278e5354fafab50fe809ce.md)
+- [ /ng/{orgUuid}/traces/{appId}/snapshots/severity (POST) ]( ./41f4359b52dc1d8e4a0002daf981c1b4.md)
+- [ /ng/{orgUuid}/traces/{appId}/trace/{traceUid} (DELETE) ]( ./7cc95655627b83f98d6545dbaa11a0ff.md)
+- [ /ng/{orgUuid}/traces/{appId}/trace/{traceUuid}/metadata (GET) ]( ./cea5a376c6bd556256ba06b87f1f8c48.md)
+- [ /ng/{orgUuid}/traces/{appId}/trace/{traceUuid}/requirements (GET) ]( ./76663079f73a7800605a6ebf1c37c8b9.md)
+- [ /ng/{orgUuid}/traces/{appId}/trace/{traceUuid}/routes (GET) ]( ./1c78ca589c6ad7c835688e9ede444032.md)
+- [ /ng/{orgUuid}/traces/{appId}/trace/{traceUuid}/servers (GET) ]( ./8c6d2e176a3954b38a9e6b5ae190c4cc.md)
+- [ /ng/{orgUuid}/traces/{appId}/trace/{traceUuid}/severity (PUT) ]( ./c226188f2c651efa9d998516c1eec175.md)
+- [ /ng/{orgUuid}/traces/{appId}/{traceUuid}/short (GET) ]( ./848c993062a7a30f59a55415d285bc95.md)
+- [ /ng/{orgUuid}/traces/{appId}/{traceUuid}/visible (GET) ]( ./8a035a054eae4d540b436cc0bcd2bb44.md)

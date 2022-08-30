@@ -1,0 +1,25 @@
+## Servers
+### Description
+Server methods
+### Methods
+- [ /ng/{orgUuid}/servers (GET) ]( ./b7077da11b021cae6e783cff62c7c05f.md)
+- [ /ng/{orgUuid}/servers/active (GET) ]( ./68c295ce26ef70eb4f3169f01e40d316.md)
+- [ /ng/{orgUuid}/servers/filter (POST) ]( ./68b7107d3c0861b9433cd2963172261c.md)
+- [ /ng/{orgUuid}/servers/filters/listing (GET) ]( ./dad2d14ea94c67eb5eb017100bec2b22.md)
+- [ /ng/{orgUuid}/servers/filters/quick (GET) ]( ./b2ecf8642d23110228f9fdadfa5a6776.md)
+- [ /ng/{orgUuid}/servers/filters/quick (POST) ]( ./5072e6f8662a71fb31a4baa7e5392f0f.md)
+- [ /ng/{orgUuid}/servers/filters/{serversFilterType}/listing (GET) ]( ./290adc606656cea1dcf9e4efe470e43c.md)
+- [ /ng/{orgUuid}/servers/filters/{serversFilterType}/listing (POST) ]( ./75a44223eb19a6d6ce2b2b500f7fdd7d.md)
+- [ /ng/{orgUuid}/servers/modes (GET) ]( ./ad15c8501abd6fb711f503d8587b4c37.md)
+- [ /ng/{orgUuid}/servers/{serverId} (GET) ]( ./e2d1bab31c00105bb3edb831623ebd1e.md)
+- [ /ng/{orgUuid}/servers/{serverId}/activity/interval (GET) ]( ./e985f0012761e34a0624e06873600b84.md)
+- [ /ng/{orgUuid}/servers/{serverId}/apptraces (GET) ]( ./3af89dd2dd3d8047322e65c13ebb6310.md)
+- [ /ng/{orgUuid}/servers/{serverId}/breakdown/attack/status (GET) ]( ./e2bbc9b417921903c5c13440f6094d64.md)
+- [ /ng/{orgUuid}/servers/{serverId}/breakdown/attack/type (GET) ]( ./2a5ec664eb22f6978f767e5aadadb235.md)
+- [ /ng/{orgUuid}/servers/{serverId}/breakdown/trace/rule (GET) ]( ./2f0439083442e4f5397b5de94aa1ed24.md)
+- [ /ng/{orgUuid}/servers/{serverId}/breakdown/trace/severity (GET) ]( ./2c24aa3f02ca95939109e98926b5b994.md)
+- [ /ng/{orgUuid}/servers/{serverId}/breakdown/trace/status (GET) ]( ./cba46cb1163a016b06a9c6bc64ca421f.md)
+- [ /ng/{orgUuid}/servers/{serverId}/libraries/breakdown (GET) ]( ./98dd257930ac088312f2cba56aac925f.md)
+- [ /ng/{orgUuid}/servers/{serverId}/name (PUT) ]( ./d812a1b395fa3ee1b1c79c622354940d.md)
+- [ /ng/{orgUuid}/servers/{serverId}/properties (GET) ]( ./3fe7806620d107718f45f897da9f8156.md)
+- [ /ng/{orgUuid}/servers/{serverId}/url/attack (GET) ]( ./8d6eec0cf7b85ea797c4eb3dbf1cb79b.md)
