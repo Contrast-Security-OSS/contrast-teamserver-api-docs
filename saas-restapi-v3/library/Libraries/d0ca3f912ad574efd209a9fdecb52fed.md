@@ -1,5 +1,7 @@
 ## /ng/{orgUuid}/libraries/{appId}/status (PUT)
 ---
+### Auth
+Roles: admin
 ### Produces
 application/json
 ### Consumes
