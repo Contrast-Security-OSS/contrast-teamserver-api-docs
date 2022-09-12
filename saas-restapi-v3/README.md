@@ -9,6 +9,7 @@
   - [Agent](<./agent/Agent/README.md>)
   - [Agent session](<./agent/Agent session/README.md>)
 - APPLICATION
+  - [Application Activity](<./application/Application Activity/README.md>)
   - [Application Assess Rule Environment Configs](<./application/Application Assess Rule Environment Configs/README.md>)
   - [Application Components](<./application/Application Components/README.md>)
   - [Application Coverage](<./application/Application Coverage/README.md>)
@@ -21,7 +22,6 @@
   - [Application Traces](<./application/Application Traces/README.md>)
   - [Application Vulnerability Filtering](<./application/Application Vulnerability Filtering/README.md>)
   - [Applications](<./application/Applications/README.md>)
-  - [Application Activity](<./application/Application Activity/README.md>)
 - APPLICATION SECURITY SUMMARY
   - [Application security summary](<./application security summary/Application security summary/README.md>)
 - AUTHENTICATION
@@ -65,8 +65,8 @@
   - [Organization Stats](<./organization/Organization Stats/README.md>)
   - [Organization admin approval workflow for vulnerability status](<./organization/Organization admin approval workflow for vulnerability status/README.md>)
   - [Organization feature](<./organization/Organization feature/README.md>)
-  - [Search](<./organization/Search/README.md>)
   - [Organizations](<./organization/Organizations/README.md>)
+  - [Search](<./organization/Search/README.md>)
 - PIVOTAL
 - PROFILE
   - [Profile](<./profile/Profile/README.md>)
