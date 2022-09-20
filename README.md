@@ -1,7 +1,7 @@
-# Contrast Legacy API Documentation
+# Contrast TeamServer API Documentation
 
 ## **Notice**
-This documentation is for the legacy API, please visit [here](https://api.contrastsecurity.com) to view the documentation for the latest APIs.
+This documentation is for Contrast TeamServer API. Links to API docs for Contrast’s Scan and Serverless products can be found [here](https://api.contrastsecurity.com).
 
 ## Introduction
 Contrast offers a HATEOAS-compliant RESTful API that allows you to gather nearly all of the same information that is accessible from the UI. 
