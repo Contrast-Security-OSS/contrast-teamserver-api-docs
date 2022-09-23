@@ -2,8 +2,9 @@
 ### Description
 Organization methods
 ### Methods
-- [ /ng/{orgUuid}/organizations (GET) ]( ./524dde56b39587be77d85148ec2b42cc.md)
-- [ /ng/{orgUuid}/organizations/administrators (GET) ]( ./f0dcae8fb7cfdadb9b89eb061bb5e9a0.md)
-- [ /ng/{orgUuid}/organizations/apikey (GET) ]( ./53e7080b27d371baa23c8e5b6b98ca3a.md)
-- [ /ng/{orgUuid}/organizations/application/roles (GET) ]( ./3da6a49dfb4c4089517ab7928f74bdbc.md)
-- [ /ng/{orgUuid}/organizations/servers/restart/{language:.+} (GET) ]( ./e164b6bcf13d4e73a10d80c56b3895ac.md)
+- [ /administrators (GET) ]( ./7ec4b863d39d2fd69bb280399e24a3e4.md)
+- [ /apikey (GET) ]( ./b76549a8b7f93c738749889ad120d825.md)
+- [ /application/roles (GET) ]( ./4d0289918427a3de241b3e946df229c9.md)
+- [ /impersonation (PUT) ]( ./3300d66365a0819fd360b59efa148f9f.md)
+- [ /servers/restart/{language:.+} (GET) ]( ./a1998fb8808008c75403d1b7b9cb47b1.md)
+- [ Missing documentation data: path (GET) ]( ./090ef0a296c2928d762e2e22cd46e325.md)
