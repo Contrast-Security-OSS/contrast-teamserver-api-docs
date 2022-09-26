@@ -2,9 +2,6 @@
 #### Base Path (/Contrast/api)
 #### Version v3
 ## APIs
-- UNGROUPED
-  - [NgSuperadminVulnerabilityAndInstanceController](<./ungrouped/NgSuperadminVulnerabilityAndInstanceController/README.md>)
-  - [NgVulnerabilityAndInstanceController](<./ungrouped/NgVulnerabilityAndInstanceController/README.md>)
 - AGENT
   - [Agent](<./agent/Agent/README.md>)
   - [Agent session](<./agent/Agent session/README.md>)
@@ -73,8 +70,8 @@
 - RASP
   - [History Attacks](<./rasp/History Attacks/README.md>)
   - [Rasp Event Filters](<./rasp/Rasp Event Filters/README.md>)
-  - [Users](<./rasp/Users/README.md>)
   - [Licenses](<./rasp/Licenses/README.md>)
+  - [Users](<./rasp/Users/README.md>)
 - ROLE
   - [Roles](<./role/Roles/README.md>)
 - RULES POLICY
