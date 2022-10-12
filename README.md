@@ -1,7 +1,7 @@
 # Contrast Teamserver API Documentation
 
 ## **Notice**
-This documentation is for Contrast Teamserver API, please visit [here](https://api.contrastsecurity.com) to view the documentation for the latest APIs.
+This documentation is for Contrast's Teamserver API. Documentation for other Contrast APIs can be accessed from [here](https://api.contrastsecurity.com).
 
 ## Introduction
 Contrast offers a HATEOAS-compliant RESTful API that allows you to gather nearly all of the same information that is accessible from the UI. 
