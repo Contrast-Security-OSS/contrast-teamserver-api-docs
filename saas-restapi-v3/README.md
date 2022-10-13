@@ -98,10 +98,10 @@
   - [Organization Traces Stats](<./trace/Organization Traces Stats/README.md>)
   - [Organization Vulnerabilities Filters](<./trace/Organization Vulnerabilities Filters/README.md>)
   - [Organization Vulnerability Bulk Share](<./trace/Organization Vulnerability Bulk Share/README.md>)
-  - [Security Controls](<./trace/Security Controls/README.md>)
   - [Trace Filters](<./trace/Trace Filters/README.md>)
   - [Trace Summary](<./trace/Trace Summary/README.md>)
   - [Vulnerability Notes](<./trace/Vulnerability Notes/README.md>)
+  - [Security Controls](<./trace/Security Controls/README.md>)
 - USER
   - [Report Preferences](<./user/Report Preferences/README.md>)
   - [Users](<./user/Users/README.md>)
