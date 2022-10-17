@@ -23,4 +23,4 @@ application/json
 ### Response status code
 200 OK - OK
 ### Response object
-TraceRecommendationResponse
+[TraceRecommendationResponse](<../../objects/TraceRecommendationResponse.md>)

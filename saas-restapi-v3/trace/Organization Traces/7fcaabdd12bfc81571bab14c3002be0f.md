@@ -20,8 +20,8 @@ application/json
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | orgUuid | Organization UUID | organization | true | String |
 ### Request Body
-VulnerabilityFilterRequest
+[VulnerabilityFilterRequest](<../../objects/VulnerabilityFilterRequest.md>)
 ### Response status code
 200 OK - OK
 ### Response object
-QuickFilterResponse
+[QuickFilterResponse](<../../objects/QuickFilterResponse.md>)

@@ -21,8 +21,8 @@ application/json
 | orgUuid | Organization UUID | organization | true | String |
 | traceUuid | Vulnerability/Instance UUID | vulnerabilityandinstancekeyspair | true | String |
 ### Request Body
-TagRequest
+[TagRequest](<../../objects/TagRequest.md>)
 ### Response status code
 200 OK - OK
 ### Response object
-TagsResponse
+[TagsResponse](<../../objects/TagsResponse.md>)

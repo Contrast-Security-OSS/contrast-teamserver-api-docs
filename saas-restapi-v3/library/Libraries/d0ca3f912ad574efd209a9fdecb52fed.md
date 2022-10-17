@@ -17,8 +17,8 @@ application/json
 | orgUuid | Organization UUID | organization | true | String |
 | appId | Application ID | application | true | String |
 ### Request Body
-LibraryUpdateStatusRequest
+[LibraryUpdateStatusRequest](<../../objects/LibraryUpdateStatusRequest.md>)
 ### Response status code
 200 OK - OK
 ### Response object
-BaseApiResponse
+[BaseApiResponse](<../../objects/BaseApiResponse.md>)

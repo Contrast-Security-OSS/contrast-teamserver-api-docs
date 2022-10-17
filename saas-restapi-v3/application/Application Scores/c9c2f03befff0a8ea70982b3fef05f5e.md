@@ -30,4 +30,4 @@ application/json
 ### Response status code
 200 OK - OK
 ### Response object
-TraceBreakdownResponse
+[TraceBreakdownResponse](<../../objects/TraceBreakdownResponse.md>)

@@ -20,8 +20,8 @@ application/json
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | orgUuid | Organization UUID | organization | true | String |
 ### Request Body
-TagsAttacksUpdateRequest
+[TagsAttacksUpdateRequest](<../../objects/TagsAttacksUpdateRequest.md>)
 ### Response status code
 200 OK - OK
 ### Response object
-BaseApiResponse
+[BaseApiResponse](<../../objects/BaseApiResponse.md>)
