@@ -13,4 +13,3 @@ Profile methods
 - [ /ng/profile/roles (GET) ]( ./23a8630b7b22ed7fddd4e5d0e6f92cb8.md)
 - [ /ng/profile/servicekey (GET) ]( ./5dde8cd4b9c2ad13ae840b3a8e26c625.md)
 - [ /ng/profile/servicekey/rotate (PUT) ]( ./c3d7314c0cd237e5466390b7c034a331.md)
-- [ /ng/profile/{orgUuid}/default (PUT) ]( ./8fe7fda4262e6744cb9636d114088c84.md)
