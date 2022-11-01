@@ -13,6 +13,7 @@ Bugzilla Bugtracker Application Resource
 | component | Component name | string |  | false |
 | connection_unavailable | Has troubles with connection? | boolean |  | false |
 | contrast_product | The product for which bugtracker application is configured | contrastproduct |  | false |
+| deployment_mode | Bug tracker deployment mode | string |  | false |
 | full_integration | Is full integration active? | boolean |  | false |
 | has_two_way_integration | Has Two way integration configured? | boolean |  | false |
 | host | Hostname | string |  | false |
@@ -28,5 +29,5 @@ Bugzilla Bugtracker Application Resource
 | version | Version | string |  | false |
 ### Template
 ```
-{"all_applications":true,"app_criterion":true,"application_criterion":"","applications":[],"bugtracker_id":0,"keycode":"","type":"","component":"","connection_unavailable":true,"contrast_product":"","full_integration":true,"has_two_way_integration":true,"host":"","importance":[],"links":[],"name":"","priority":"","product":"","serverless_account_ids":[],"serverless_categories":[],"username":"","version":""}
+{"all_applications":true,"app_criterion":true,"application_criterion":"","applications":[],"bugtracker_id":0,"keycode":"","type":"","component":"","connection_unavailable":true,"contrast_product":"","deployment_mode":"","full_integration":true,"has_two_way_integration":true,"host":"","importance":[],"links":[],"name":"","priority":"","product":"","serverless_account_ids":[],"serverless_categories":[],"username":"","version":""}
 ```
