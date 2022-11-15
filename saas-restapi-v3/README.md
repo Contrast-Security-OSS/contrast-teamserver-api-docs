@@ -6,6 +6,7 @@
   - [Agent](<./agent/Agent/README.md>)
   - [Agent session](<./agent/Agent session/README.md>)
 - APPLICATION
+  - [Application Activity](<./application/Application Activity/README.md>)
   - [Application Assess Rule Environment Configs](<./application/Application Assess Rule Environment Configs/README.md>)
   - [Application Components](<./application/Application Components/README.md>)
   - [Application Coverage](<./application/Application Coverage/README.md>)
@@ -18,7 +19,6 @@
   - [Application Traces](<./application/Application Traces/README.md>)
   - [Application Vulnerability Filtering](<./application/Application Vulnerability Filtering/README.md>)
   - [Applications](<./application/Applications/README.md>)
-  - [Application Activity](<./application/Application Activity/README.md>)
 - APPLICATION SECURITY SUMMARY
   - [Application security summary](<./application security summary/Application security summary/README.md>)
 - AUTHENTICATION
@@ -70,9 +70,9 @@
   - [Profile](<./profile/Profile/README.md>)
 - RASP
   - [History Attacks](<./rasp/History Attacks/README.md>)
-  - [Licenses](<./rasp/Licenses/README.md>)
   - [Rasp Event Filters](<./rasp/Rasp Event Filters/README.md>)
   - [Users](<./rasp/Users/README.md>)
+  - [Licenses](<./rasp/Licenses/README.md>)
 - ROLE
   - [Roles](<./role/Roles/README.md>)
 - RULES POLICY
@@ -664,9 +664,8 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESOURCE
-  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
 - SECURITY RESPONSE
+  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
