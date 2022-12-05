@@ -10,5 +10,5 @@ Application Bulk Tag Update Request
 | removeTags | List of tags to remove | list |  | true |
 ### Template
 ```
-{"addTags":[],"filters":{"environment":[],"excludedApplications":[],"filterCompliance":[],"filterLanguages":[],"filterServers":[],"filterTags":[],"filterTechs":[],"filterText":"","filterVulnSeverities":[],"metadataFilters":[],"quickFilter":""},"removeTags":[]}
+{"addTags":[],"filters":{"appImportances":[],"environment":[],"excludedApplications":[],"filterCompliance":[],"filterLanguages":[],"filterServers":[],"filterTags":[],"filterTechs":[],"filterText":"","filterVulnSeverities":[],"metadataFilters":[],"quickFilter":"","scoreLetterGrades":[]},"removeTags":[]}
 ```

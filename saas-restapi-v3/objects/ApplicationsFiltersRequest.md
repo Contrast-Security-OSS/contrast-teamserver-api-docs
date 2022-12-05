@@ -19,7 +19,8 @@ Applications Filters Request
 | includeOnlyLicensed | Include only licensed applications | boolean |  | false |
 | metadataFilters | Custom metadata filter groups selected | list |  | false |
 | quickFilter | Quick Filter | applicationquickfiltertype |  | false |
+| scoreLetterGrades | Filter by Application score letter grade | list |  | false |
 ### Template
 ```
-{"appImportances":[],"environment":[],"filterAppCode":"","filterCompliance":[],"filterLanguages":[],"filterServers":[],"filterTags":[],"filterTechs":[],"filterText":"","filterVulnSeverities":[],"includeArchived":true,"includeOnlyLicensed":true,"metadataFilters":[],"quickFilter":""}
+{"appImportances":[],"environment":[],"filterAppCode":"","filterCompliance":[],"filterLanguages":[],"filterServers":[],"filterTags":[],"filterTechs":[],"filterText":"","filterVulnSeverities":[],"includeArchived":true,"includeOnlyLicensed":true,"metadataFilters":[],"quickFilter":"","scoreLetterGrades":[]}
 ```
