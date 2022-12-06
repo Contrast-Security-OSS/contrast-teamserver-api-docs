@@ -40,6 +40,7 @@ application/json
 | routes | Route coverage hashes | array | false | String[] |
 | modules | Filter traces by multiple applications - If applicationID is not provided, the result set will include traces related to submodules (child applications) | array | false | String[] |
 | languages | Filter vulnerabilities by application agent languages | list | false | List |
+| technologies | Filter vulnerabilities by application technologies | list | false | List |
 | applicationTags | Filter traces by application tags | array | false | String[] |
 | applicationID | Filter traces by a single application | string | false | String |
 | quickFilter | Quick Filter | vulnerabilityquickfiltertype | false | VulnerabilityQuickFilterType |
