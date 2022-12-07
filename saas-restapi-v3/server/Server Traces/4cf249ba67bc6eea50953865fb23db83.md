@@ -52,6 +52,7 @@ application/json
 | metadataFilters | Session metadata filter groups selected | list | false | List |
 | licensedOnly | Show vulnerabilities only from licensed apps | boolean | false | boolean |
 | agentSessionId | Session metadata id | string | false | String |
+| applicationImportances | List of application importances | list | false | List |
 | sort | Sort by | string | false | lastTimeSeen,status,title,application.name,severity |
 ### Response status code
 200 OK - OK
