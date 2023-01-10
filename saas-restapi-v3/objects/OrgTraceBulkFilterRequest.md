@@ -9,6 +9,7 @@ Org Trace Bulk Filter Request
 | applicationID | Application ID | string |  | false |
 | applicationIds | Application IDs - If applicationID is not provided, the result set will include traces related to submodules (child applications) | array |  | false |
 | applicationImportances | List of application importances | list |  | false |
+| applicationMetadataFilters | Application metadata filter groups selected | list |  | false |
 | applicationTags | Filter application tags | array |  | false |
 | endDate | End Date | long |  | false |
 | environments | Server Environments | array |  | false |
@@ -37,5 +38,5 @@ Org Trace Bulk Filter Request
 | vulnTypes | Vulnerability Type | array |  | false |
 ### Template
 ```
-{"appVersionTags":[],"applicationID":"","applicationIds":[],"applicationImportances":[],"applicationTags":[],"endDate":0,"environments":[],"excludedTraces":[],"filterText":"","languages":[],"licensedOnly":true,"matchRoutePathParams":true,"metadataFilters":[],"quickFilter":"","routes":[],"securityStandards":[],"servers":[],"severities":[],"sinkValues":[],"sinks":[],"startDate":0,"status":[],"substatus":[],"tags":[],"technologies":[],"timestampFilter":"","tracked":true,"untracked":true,"urls":[],"vulnTypes":[]}
+{"appVersionTags":[],"applicationID":"","applicationIds":[],"applicationImportances":[],"applicationMetadataFilters":[],"applicationTags":[],"endDate":0,"environments":[],"excludedTraces":[],"filterText":"","languages":[],"licensedOnly":true,"matchRoutePathParams":true,"metadataFilters":[],"quickFilter":"","routes":[],"securityStandards":[],"servers":[],"severities":[],"sinkValues":[],"sinks":[],"startDate":0,"status":[],"substatus":[],"tags":[],"technologies":[],"timestampFilter":"","tracked":true,"untracked":true,"urls":[],"vulnTypes":[]}
 ```
