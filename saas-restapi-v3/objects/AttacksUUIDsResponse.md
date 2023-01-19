@@ -1,15 +1,16 @@
-## AuditLogResponseItem
+## AttacksUUIDsResponse
 ---
+### Visibility
+PUBLIC
 ### Description
-Audit Log Response
+Attacks UUIDs Response
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| logs | List of logs | list |  | false |
+| attacks | List of Attacks UUIDs | list |  | false |
 | messages | List of messages | list |  | false |
 | success | Indicates whether API response was successful or not | boolean |  | false |
-| total | Total number of logs | int |  | false |
 ### Template
 ```
-{"logs":[],"messages":[],"success":true,"total":0}
+{"attacks":[],"messages":[],"success":true}
 ```

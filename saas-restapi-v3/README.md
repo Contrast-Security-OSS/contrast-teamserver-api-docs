@@ -129,7 +129,6 @@
   - [RouteCoverageAggregationFilterResponse](<./objects/RouteCoverageAggregationFilterResponse.md>)
   - [RouteCoverageBaseApiResponse](<./objects/RouteCoverageBaseApiResponse.md>)
   - [RouteCoverageFilterItem](<./objects/RouteCoverageFilterItem.md>)
-  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageServersResponse](<./objects/RouteCoverageServersResponse.md>)
   - [SelectedFacet](<./objects/SelectedFacet.md>)
   - [SelectedFacets](<./objects/SelectedFacets.md>)
@@ -147,6 +146,7 @@
   - [AgentVersionsResponse](<./objects/AgentVersionsResponse.md>)
 - APPLICATION COVERAGE REQUEST
   - [RouteCoverageBySessionIDAndMetadataRequest](<./objects/RouteCoverageBySessionIDAndMetadataRequest.md>)
+  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageMetadataLabelValues](<./objects/RouteCoverageMetadataLabelValues.md>)
 - APPLICATION COVERAGE RESOURCE
   - [RouteCoverageMetricsResource](<./objects/RouteCoverageMetricsResource.md>)
@@ -556,6 +556,7 @@
   - [AttackStatusBreakdownResponse](<./objects/AttackStatusBreakdownResponse.md>)
   - [AttackTypeBreakdownResponse](<./objects/AttackTypeBreakdownResponse.md>)
   - [AttacksResponse](<./objects/AttacksResponse.md>)
+  - [AttacksUUIDsResponse](<./objects/AttacksUUIDsResponse.md>)
   - [EventFilterCatalogDetailsResponse](<./objects/EventFilterCatalogDetailsResponse.md>)
   - [EventFilterCatalogResponse](<./objects/EventFilterCatalogResponse.md>)
   - [EventNotesResponse](<./objects/EventNotesResponse.md>)
@@ -664,9 +665,8 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESOURCE
-  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
 - SECURITY RESPONSE
+  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
