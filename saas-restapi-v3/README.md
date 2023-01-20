@@ -412,6 +412,7 @@
   - [NotificationUserTriggerRequest](<./objects/NotificationUserTriggerRequest.md>)
 - NOTIFICATION RESOURCE
   - [AlertConditionResource](<./objects/AlertConditionResource.md>)
+  - [AlertResource](<./objects/AlertResource.md>)
   - [NotificationOrganizationSettingsResource](<./objects/NotificationOrganizationSettingsResource.md>)
   - [NotificationOrganizationTriggerChannelResource](<./objects/NotificationOrganizationTriggerChannelResource.md>)
   - [NotificationOrganizationTriggerResource](<./objects/NotificationOrganizationTriggerResource.md>)
@@ -509,7 +510,6 @@
   - [AlertAttackTriggerIntervalResource](<./objects/AlertAttackTriggerIntervalResource.md>)
   - [AlertAttackTriggerResource](<./objects/AlertAttackTriggerResource.md>)
   - [AlertAttackTriggerStatusResource](<./objects/AlertAttackTriggerStatusResource.md>)
-  - [AlertResource](<./objects/AlertResource.md>)
   - [ApplicationAttackResource](<./objects/ApplicationAttackResource.md>)
   - [AssessmentLicenseBreakdownResource](<./objects/AssessmentLicenseBreakdownResource.md>)
   - [AttackApplicationResource](<./objects/AttackApplicationResource.md>)
