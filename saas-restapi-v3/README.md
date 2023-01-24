@@ -63,8 +63,8 @@
   - [Organization Stats](<./organization/Organization Stats/README.md>)
   - [Organization admin approval workflow for vulnerability status](<./organization/Organization admin approval workflow for vulnerability status/README.md>)
   - [Organization feature](<./organization/Organization feature/README.md>)
-  - [Organizations](<./organization/Organizations/README.md>)
   - [Search](<./organization/Search/README.md>)
+  - [Organizations](<./organization/Organizations/README.md>)
 - PIVOTAL
 - PROFILE
   - [Profile](<./profile/Profile/README.md>)
@@ -118,6 +118,7 @@
   - [ApplicationLatestAgentSessionResponse](<./objects/ApplicationLatestAgentSessionResponse.md>)
   - [ApplicationSessionResponse](<./objects/ApplicationSessionResponse.md>)
   - [BaseApiFormResponse](<./objects/BaseApiFormResponse.md>)
+  - [BaseApiResponse](<./objects/BaseApiResponse.md>)
   - [Facet](<./objects/Facet.md>)
   - [FacetValue](<./objects/FacetValue.md>)
   - [FacetsResult](<./objects/FacetsResult.md>)
@@ -328,7 +329,6 @@
   - [AuthSettingsResponse](<./objects/AuthSettingsResponse.md>)
   - [BackgroundJobResponse](<./objects/BackgroundJobResponse.md>)
   - [BaseApiCountResponse](<./objects/BaseApiCountResponse.md>)
-  - [BaseApiResponse](<./objects/BaseApiResponse.md>)
   - [BulkBackgroundJobResponse](<./objects/BulkBackgroundJobResponse.md>)
   - [CategoryRulesResponse](<./objects/CategoryRulesResponse.md>)
   - [DateFormatsResponse](<./objects/DateFormatsResponse.md>)
@@ -665,8 +665,9 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESPONSE
+- SECURITY RESOURCE
   - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
+- SECURITY RESPONSE
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)

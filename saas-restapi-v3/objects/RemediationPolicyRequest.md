@@ -11,6 +11,7 @@ Remediation Policy Request
 | all_server_environments | Apply to all server environments? | boolean |  | false |
 | application_importance | List of Application Importance | set |  | false |
 | applications | List of Applications | set |  | false |
+| auto_verification_type | Auto verification type | autoverificationtype |  | false |
 | name | Name | string |  | false |
 | remediation_days | Time based remediation policy days | integer |  | true |
 | route_based_enabled | Is route based policy enabled? | boolean |  | false |
@@ -19,5 +20,5 @@ Remediation Policy Request
 | server_environments | List of Server Environments | set |  | false |
 ### Template
 ```
-{"action":"","all_applications":true,"all_rules":true,"all_server_environments":true,"application_importance":[],"applications":[],"name":"","remediation_days":0,"route_based_enabled":true,"rule_severities":[],"rules":[],"server_environments":[]}
+{"action":"","all_applications":true,"all_rules":true,"all_server_environments":true,"application_importance":[],"applications":[],"auto_verification_type":"","name":"","remediation_days":0,"route_based_enabled":true,"rule_severities":[],"rules":[],"server_environments":[]}
 ```

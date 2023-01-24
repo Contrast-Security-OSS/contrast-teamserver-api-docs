@@ -11,6 +11,7 @@ Remediation policy Resource
 | all_server_environments | Apply to all server environments | boolean |  | false |
 | application_importance | List of application importance | set |  | false |
 | applications | List of applications | list |  | false |
+| auto_verification_type | Auto verification type | autoverificationtype |  | false |
 | enabled | Is enabled? | boolean |  | false |
 | name | Remediation policy name | string |  | false |
 | policy_id | Remediation policy ID | long |  | false |
@@ -23,5 +24,5 @@ Remediation policy Resource
 | valid | Is policy valid? | boolean |  | false |
 ### Template
 ```
-{"action":"","all_applications":true,"all_rules":true,"all_server_environments":true,"application_importance":[],"applications":[],"enabled":true,"links":[],"name":"","policy_id":0,"remediation days":0,"route_based_enabled":true,"rule_severities":[],"rules":[],"server_environments":[],"time_based_enabled":true,"valid":true}
+{"action":"","all_applications":true,"all_rules":true,"all_server_environments":true,"application_importance":[],"applications":[],"auto_verification_type":"","enabled":true,"links":[],"name":"","policy_id":0,"remediation days":0,"route_based_enabled":true,"rule_severities":[],"rules":[],"server_environments":[],"time_based_enabled":true,"valid":true}
 ```
