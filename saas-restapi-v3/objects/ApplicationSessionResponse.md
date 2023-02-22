@@ -10,5 +10,5 @@ Response that returns the agent session information
 | messages | List of messages | list |  | false |
 ### Template
 ```
-{"agentSession":{"agentSessionId":"","createdDate":{},"metadataSessions":[]},"messages":[],"success":true}
+{"agentSession":{"agentSessionId":"","createdDate":{},"metadataSessions":[],"sessionStatus":""},"messages":[],"success":true}
 ```

@@ -8,7 +8,8 @@ Resource that contains the information about the agent session object
 | createdDate |  | instant |  | false |
 | agentSessionId |  | string |  | false |
 | metadataSessions |  | list |  | false |
+| sessionStatus |  | appagentsessionstatus |  | false |
 ### Template
 ```
-{"agentSessionId":"","createdDate":{},"metadataSessions":[]}
+{"agentSessionId":"","createdDate":{},"metadataSessions":[],"sessionStatus":""}
 ```

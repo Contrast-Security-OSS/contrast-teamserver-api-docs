@@ -10,5 +10,5 @@ Response that returns the application latest custom agent session
 | messages | List of messages | list |  | false |
 ### Template
 ```
-{"agentSession":{"agentSessionId":"","createdDate":{},"metadataSessions":[]},"messages":[],"success":true}
+{"agentSession":{"agentSessionId":"","createdDate":{},"metadataSessions":[],"sessionStatus":""},"messages":[],"success":true}
 ```
