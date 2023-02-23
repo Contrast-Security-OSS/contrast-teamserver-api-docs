@@ -4,6 +4,7 @@ Profile methods
 ### Methods
 - [ /ng/profile (GET) ]( ./ca32db4c2063d7a8a9e7d06b1d9b34be.md)
 - [ /ng/profile (PUT) ]( ./cf5055143462ada47f442c2430e77c20.md)
+- [ /ng/profile/current-user (GET) ]( ./d643c5b0b4eebfd397ce94ac091485d3.md)
 - [ /ng/profile/expired (PUT) ]( ./1ba7ce837fd6ac46b7913832f7933334.md)
 - [ /ng/profile/organizations (GET) ]( ./bb7ef81e529c818281df613c11b9887d.md)
 - [ /ng/profile/organizations/default (GET) ]( ./b80aa1ca0c53ed2fe50d6fd4e0597d3d.md)
