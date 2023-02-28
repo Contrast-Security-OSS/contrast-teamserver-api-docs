@@ -65,16 +65,16 @@
   - [Organization Stats](<./organization/Organization Stats/README.md>)
   - [Organization admin approval workflow for vulnerability status](<./organization/Organization admin approval workflow for vulnerability status/README.md>)
   - [Organization feature](<./organization/Organization feature/README.md>)
-  - [Organizations](<./organization/Organizations/README.md>)
   - [Search](<./organization/Search/README.md>)
+  - [Organizations](<./organization/Organizations/README.md>)
 - PIVOTAL
 - PROFILE
   - [Profile](<./profile/Profile/README.md>)
 - RASP
   - [History Attacks](<./rasp/History Attacks/README.md>)
   - [Rasp Event Filters](<./rasp/Rasp Event Filters/README.md>)
-  - [Users](<./rasp/Users/README.md>)
   - [Licenses](<./rasp/Licenses/README.md>)
+  - [Users](<./rasp/Users/README.md>)
 - ROLE
   - [Roles](<./role/Roles/README.md>)
 - RULES POLICY
@@ -118,7 +118,6 @@
   - [AgentSessionsResponse](<./objects/AgentSessionsResponse.md>)
   - [ApplicationCustomAgentSessionsTotalResponse](<./objects/ApplicationCustomAgentSessionsTotalResponse.md>)
   - [ApplicationLatestAgentSessionResponse](<./objects/ApplicationLatestAgentSessionResponse.md>)
-  - [ApplicationResource](<./objects/ApplicationResource.md>)
   - [ApplicationResponse](<./objects/ApplicationResponse.md>)
   - [ApplicationSessionResponse](<./objects/ApplicationSessionResponse.md>)
   - [BaseApiFormResponse](<./objects/BaseApiFormResponse.md>)
@@ -185,6 +184,7 @@
   - [ApplicationModuleResource](<./objects/ApplicationModuleResource.md>)
   - [ApplicationNameResource](<./objects/ApplicationNameResource.md>)
   - [ApplicationProtectResource](<./objects/ApplicationProtectResource.md>)
+  - [ApplicationResource](<./objects/ApplicationResource.md>)
   - [ApplicationServerProtectionResource](<./objects/ApplicationServerProtectionResource.md>)
   - [ApplicationServerResource](<./objects/ApplicationServerResource.md>)
   - [ApplicationServerSettingsResource](<./objects/ApplicationServerSettingsResource.md>)
@@ -670,8 +670,9 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESPONSE
+- SECURITY RESOURCE
   - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
+- SECURITY RESPONSE
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
