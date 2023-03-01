@@ -10,5 +10,5 @@ Response that returns the agent session information
 | messages | List of messages | list |  | false |
 ### Template
 ```
-{"agentSession":{"appId":"","id":0,"sessionId":""},"messages":[],"success":true}
+{"agentSession":{"appId":"","sessionId":""},"messages":[],"success":true}
 ```

@@ -5,10 +5,10 @@ Request object to filter the session id
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| appId |  | string |  | false |
-| appName |  | string |  | false |
-| metadata |  | list |  | false |
-| sessionId |  | string |  | false |
+| appId | Application ID | string |  | false |
+| appName | Application name | string |  | false |
+| metadata | Metadata key pairs | list |  | false |
+| sessionId | Agent session ID | string |  | false |
 | appLanguage |  | agentlanguage |  | false |
 ### Template
 ```
