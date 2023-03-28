@@ -11,8 +11,6 @@ Server Resource
 | assessPending | Is server changing Assess on restart | boolean |  | false |
 | assess_last_update | Last assess change time | long |  | false |
 | assess_sensors | Are the assess sensors active | boolean |  | false |
-| config_source_assess | Configuration source for Assess | sourceenum |  | false |
-| config_source_protect | Configuration source for Protect | sourceenum |  | false |
 | defend | Is server Defend | boolean |  | false |
 | defendPending | Is server changing Defend on restart | boolean |  | false |
 | defend_sensors | Are the defend sensors active | boolean |  | false |
@@ -34,8 +32,6 @@ Server Resource
 | out_of_date | If the agent on this server is out of date | boolean |  | false |
 | path | Server path | string |  | false |
 | server_id | Server id | long |  | false |
-| should_block_assess_toggle | Determine if toggle should be blocked for Assess | boolean |  | false |
-| should_block_protect_toggle | Determine if toggle should be blocked for Protect | boolean |  | false |
 | status | Status | serverstatus |  | false |
 | syslog_enabled | Syslog enabled | boolean |  | false |
 | syslog_ip_address | Syslog IP address | string |  | false |
@@ -43,5 +39,5 @@ Server Resource
 | type | Server type | string |  | false |
 ### Template
 ```
-{"num_apps":0,"applications":[],"assess":true,"assess_last_update":0,"assessPending":true,"assess_sensors":true,"config_source_assess":"","config_source_protect":"","defend":true,"defendPending":true,"defend_sensors":true,"defense_last_update":0,"agent_version":"","environment":"","has_instrumentation_conflict":true,"hostname":"","language":"","last_activity":0,"last_startup":0,"latest_agent_version":"","license":{"end":0,"licensed":true,"links":[],"start":0},"links":[],"logEnhancerPending":true,"logLevel":"","logPath":"","name":"","noPending":true,"out_of_date":true,"server_id":0,"path":"","type":"","should_block_assess_toggle":true,"should_block_protect_toggle":true,"status":"","syslog_enabled":true,"syslog_ip_address":"","tags":[]}
+{"num_apps":0,"applications":[],"assess":true,"assess_last_update":0,"assessPending":true,"assess_sensors":true,"defend":true,"defendPending":true,"defend_sensors":true,"defense_last_update":0,"agent_version":"","environment":"","has_instrumentation_conflict":true,"hostname":"","language":"","last_activity":0,"last_startup":0,"latest_agent_version":"","license":{"end":0,"licensed":true,"links":[],"start":0},"links":[],"logEnhancerPending":true,"logLevel":"","logPath":"","name":"","noPending":true,"out_of_date":true,"server_id":0,"path":"","type":"","status":"","syslog_enabled":true,"syslog_ip_address":"","tags":[]}
 ```
