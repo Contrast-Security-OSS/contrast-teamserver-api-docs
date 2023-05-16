@@ -671,9 +671,8 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESOURCE
-  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
 - SECURITY RESPONSE
+  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
