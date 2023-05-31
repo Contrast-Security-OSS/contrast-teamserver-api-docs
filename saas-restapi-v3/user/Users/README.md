@@ -10,6 +10,7 @@ User methods
 - [ /ng/{orgUuid}/users/bulk (POST) ]( ./b63a292cefc9045841ce0d353e83a081.md)
 - [ /ng/{orgUuid}/users/existing (POST) ]( ./b87118b1054acc1ab563f717d194deb7.md)
 - [ /ng/{orgUuid}/users/filters/quick (GET) ]( ./9e732bd9839cc6d52b87023a076537a3.md)
+- [ /ng/{orgUuid}/users/{userId}/info (GET) ]( ./93822d1ccdc7b29de5659be69a88aaa4.md)
 - [ /ng/{orgUuid}/users/{userUid:.+} (GET) ]( ./8d452e7a610fe46e201030d78cca92bf.md)
 - [ /ng/{orgUuid}/users/{userUid:.+} (PUT) ]( ./8c1ef925b071e111b768356cfe0c0cb5.md)
 - [ /ng/{orgUuid}/users/{userUid:.+} (DELETE) ]( ./519a8c3a75f9efaa183ac9795ea0de7d.md)
