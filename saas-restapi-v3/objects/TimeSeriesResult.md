@@ -7,8 +7,7 @@ A set of time series data
 | ---- | ----------- | ---- | -------------- | -------- |
 | lastSeenDate | The latest observed date in this time series | long |  | false |
 | series | A set of time series data | list |  | true |
-| percentageOpenFromLastMonth | Percentage open since last month | double |  | false |
 ### Template
 ```
-{"lastSeenDate":0,"percentageOpenFromLastMonth":0,"series":[]}
+{"lastSeenDate":0,"series":[]}
 ```
