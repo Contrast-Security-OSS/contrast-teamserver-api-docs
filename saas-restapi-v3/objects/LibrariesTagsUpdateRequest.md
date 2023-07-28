@@ -16,10 +16,11 @@ Libraries Tags Update Request
 | q | Keyword search | string |  | false |
 | quickFilter | Quick Filter | libraryquickfiltertype |  | false |
 | servers | Server IDs | array |  | false |
+| severities | Library severities | array |  | false |
 | status | Library Status | set |  | false |
 | tags | Tags | array |  | false |
 | tagsToUpdate | List of tags to update | list |  | true |
 ### Template
 ```
-{"apps":[],"environment":[],"grades":[],"includeUnused":true,"includeUsed":true,"languages":[],"libraryHashes":[],"licenses":[],"q":"","quickFilter":"","servers":[],"status":[],"tags":[],"tagsToUpdate":[]}
+{"apps":[],"environment":[],"grades":[],"includeUnused":true,"includeUsed":true,"languages":[],"libraryHashes":[],"licenses":[],"q":"","quickFilter":"","servers":[],"severities":[],"status":[],"tags":[],"tagsToUpdate":[]}
 ```

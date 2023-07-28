@@ -1,6 +1,6 @@
 ## Security Controls
 ### Description
-Security Controls Suggestions methods
+Security Controls methods
 ### Methods
 - [ /ng/{orgUuid}/controls (GET) ]( ./6207129f0b483568340228320d46608b.md)
 - [ /ng/{orgUuid}/controls/filters/quick (GET) ]( ./27da9bc56c46c82e87dd5d984352deed.md)

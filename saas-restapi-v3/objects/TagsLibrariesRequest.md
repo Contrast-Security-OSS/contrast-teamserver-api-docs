@@ -16,9 +16,10 @@ Library Tags Request
 | q | Keyword search | string |  | false |
 | quickFilter | Quick Filter | libraryquickfiltertype |  | false |
 | servers | Server IDs | array |  | false |
+| severities | Library severities | array |  | false |
 | status | Library Status | set |  | false |
 | tags | Tags | array |  | false |
 ### Template
 ```
-{"apps":[],"environment":[],"grades":[],"includeUnused":true,"includeUsed":true,"languages":[],"libraryHashes":[],"licenses":[],"q":"","quickFilter":"","servers":[],"status":[],"tags":[]}
+{"apps":[],"environment":[],"grades":[],"includeUnused":true,"includeUsed":true,"languages":[],"libraryHashes":[],"licenses":[],"q":"","quickFilter":"","servers":[],"severities":[],"status":[],"tags":[]}
 ```
