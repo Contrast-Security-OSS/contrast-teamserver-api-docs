@@ -9,8 +9,9 @@ Organization Application Settings Resource
 | compliance_policies | Application default compliance policies | list |  | false |
 | filter_app_most_recent_session | Boolean flag to filter app by most recent session | boolean |  | false |
 | importance | Application default importance | applicationimportance |  | false |
+| prevent_onboarding_failing_applications | Boolean flag to prevent onboarding failing applications | boolean |  | false |
 | remediation_policies | Application default remediation policies | list |  | false |
 ### Template
 ```
-{"auto_license":true,"compliance_policies":[],"filter_app_most_recent_session":true,"importance":"","links":[],"remediation_policies":[]}
+{"auto_license":true,"compliance_policies":[],"filter_app_most_recent_session":true,"importance":"","links":[],"prevent_onboarding_failing_applications":true,"remediation_policies":[]}
 ```
