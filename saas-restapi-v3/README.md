@@ -73,8 +73,8 @@
   - [Profile](<./profile/Profile/README.md>)
 - RASP
   - [History Attacks](<./rasp/History Attacks/README.md>)
-  - [Licenses](<./rasp/Licenses/README.md>)
   - [Rasp Event Filters](<./rasp/Rasp Event Filters/README.md>)
+  - [Licenses](<./rasp/Licenses/README.md>)
   - [Users](<./rasp/Users/README.md>)
 - ROLE
   - [Roles](<./role/Roles/README.md>)
@@ -135,6 +135,7 @@
   - [RouteCoverageAggregationFilterResponse](<./objects/RouteCoverageAggregationFilterResponse.md>)
   - [RouteCoverageBaseApiResponse](<./objects/RouteCoverageBaseApiResponse.md>)
   - [RouteCoverageFilterItem](<./objects/RouteCoverageFilterItem.md>)
+  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageServersResponse](<./objects/RouteCoverageServersResponse.md>)
   - [RuleConfigurationRequest](<./objects/RuleConfigurationRequest.md>)
   - [SbavRouteSessionRequest](<./objects/SbavRouteSessionRequest.md>)
@@ -156,7 +157,6 @@
   - [AgentVersionsResponse](<./objects/AgentVersionsResponse.md>)
 - APPLICATION COVERAGE REQUEST
   - [RouteCoverageBySessionIDAndMetadataRequest](<./objects/RouteCoverageBySessionIDAndMetadataRequest.md>)
-  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageMetadataLabelValues](<./objects/RouteCoverageMetadataLabelValues.md>)
 - APPLICATION COVERAGE RESOURCE
   - [RouteCoverageMetricsResource](<./objects/RouteCoverageMetricsResource.md>)
