@@ -135,7 +135,6 @@
   - [RouteCoverageAggregationFilterResponse](<./objects/RouteCoverageAggregationFilterResponse.md>)
   - [RouteCoverageBaseApiResponse](<./objects/RouteCoverageBaseApiResponse.md>)
   - [RouteCoverageFilterItem](<./objects/RouteCoverageFilterItem.md>)
-  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageServersResponse](<./objects/RouteCoverageServersResponse.md>)
   - [RuleConfigurationRequest](<./objects/RuleConfigurationRequest.md>)
   - [SbavRouteSessionRequest](<./objects/SbavRouteSessionRequest.md>)
@@ -157,6 +156,7 @@
   - [AgentVersionsResponse](<./objects/AgentVersionsResponse.md>)
 - APPLICATION COVERAGE REQUEST
   - [RouteCoverageBySessionIDAndMetadataRequest](<./objects/RouteCoverageBySessionIDAndMetadataRequest.md>)
+  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageMetadataLabelValues](<./objects/RouteCoverageMetadataLabelValues.md>)
 - APPLICATION COVERAGE RESOURCE
   - [RouteCoverageMetricsResource](<./objects/RouteCoverageMetricsResource.md>)
@@ -420,7 +420,6 @@
   - [NotificationUserTriggerRequest](<./objects/NotificationUserTriggerRequest.md>)
 - NOTIFICATION RESOURCE
   - [AlertConditionResource](<./objects/AlertConditionResource.md>)
-  - [AlertResource](<./objects/AlertResource.md>)
   - [NotificationOrganizationSettingsResource](<./objects/NotificationOrganizationSettingsResource.md>)
   - [NotificationOrganizationTriggerChannelResource](<./objects/NotificationOrganizationTriggerChannelResource.md>)
   - [NotificationOrganizationTriggerResource](<./objects/NotificationOrganizationTriggerResource.md>)
@@ -518,6 +517,7 @@
   - [AlertAttackTriggerIntervalResource](<./objects/AlertAttackTriggerIntervalResource.md>)
   - [AlertAttackTriggerResource](<./objects/AlertAttackTriggerResource.md>)
   - [AlertAttackTriggerStatusResource](<./objects/AlertAttackTriggerStatusResource.md>)
+  - [AlertResource](<./objects/AlertResource.md>)
   - [ApplicationAttackResource](<./objects/ApplicationAttackResource.md>)
   - [AssessmentLicenseBreakdownResource](<./objects/AssessmentLicenseBreakdownResource.md>)
   - [AttackApplicationResource](<./objects/AttackApplicationResource.md>)
