@@ -1,14 +1,14 @@
-## VulnerabilityTrendFilterViewResponse
+## RestrictEditRoleResponse
 ---
 ### Description
-Vulnerability Trend Filter View Response
+Base API form Response
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| messages | List of messages | list |  | false |
 | success | Indicates whether API response was successful or not | boolean |  | false |
-| views | Vulnerability Trend Filter views | list |  | false |
+| messages | List of messages | list |  | false |
+| enabled | true if restricted edit role is allowed, false otherwise | boolean |  | false |
 ### Template
 ```
-{"messages":[],"success":true,"views":[]}
+{"enabled":true,"messages":[],"success":true}
 ```
