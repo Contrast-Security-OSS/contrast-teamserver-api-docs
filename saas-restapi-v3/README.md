@@ -66,8 +66,8 @@
   - [Organization Stats](<./organization/Organization Stats/README.md>)
   - [Organization admin approval workflow for vulnerability status](<./organization/Organization admin approval workflow for vulnerability status/README.md>)
   - [Organization feature](<./organization/Organization feature/README.md>)
-  - [Search](<./organization/Search/README.md>)
   - [Organizations](<./organization/Organizations/README.md>)
+  - [Search](<./organization/Search/README.md>)
 - PIVOTAL
 - PROFILE
   - [Profile](<./profile/Profile/README.md>)
@@ -134,6 +134,7 @@
   - [RouteCoverageAggregationFilterResponse](<./objects/RouteCoverageAggregationFilterResponse.md>)
   - [RouteCoverageBaseApiResponse](<./objects/RouteCoverageBaseApiResponse.md>)
   - [RouteCoverageFilterItem](<./objects/RouteCoverageFilterItem.md>)
+  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageServersResponse](<./objects/RouteCoverageServersResponse.md>)
   - [RuleConfigurationRequest](<./objects/RuleConfigurationRequest.md>)
   - [SbavRouteSessionRequest](<./objects/SbavRouteSessionRequest.md>)
@@ -155,7 +156,6 @@
   - [AgentVersionsResponse](<./objects/AgentVersionsResponse.md>)
 - APPLICATION COVERAGE REQUEST
   - [RouteCoverageBySessionIDAndMetadataRequest](<./objects/RouteCoverageBySessionIDAndMetadataRequest.md>)
-  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageMetadataLabelValues](<./objects/RouteCoverageMetadataLabelValues.md>)
 - APPLICATION COVERAGE RESOURCE
   - [RouteCoverageMetricsResource](<./objects/RouteCoverageMetricsResource.md>)
@@ -674,8 +674,9 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESPONSE
+- SECURITY RESOURCE
   - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
+- SECURITY RESPONSE
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
