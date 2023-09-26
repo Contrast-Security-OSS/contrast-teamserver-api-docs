@@ -7,6 +7,7 @@ Applications Filters Request
 | ---- | ----------- | ---- | -------------- | -------- |
 | appImportances | Application Importance | list |  | false |
 | environment | Server Environment | list |  | false |
+| excludeRole | Exclude application roles | boolean |  | false |
 | filterAppCode | Filter by application code | string |  | false |
 | filterCompliance | Filter compliance policies | array |  | false |
 | filterLanguages | Filter languages | array |  | false |
@@ -22,5 +23,5 @@ Applications Filters Request
 | scoreLetterGrades | Filter by Application score letter grade | list |  | false |
 ### Template
 ```
-{"appImportances":[],"environment":[],"filterAppCode":"","filterCompliance":[],"filterLanguages":[],"filterServers":[],"filterTags":[],"filterTechs":[],"filterText":"","filterVulnSeverities":[],"includeArchived":true,"includeOnlyLicensed":true,"metadataFilters":[],"quickFilter":"","scoreLetterGrades":[]}
+{"appImportances":[],"environment":[],"excludeRole":true,"filterAppCode":"","filterCompliance":[],"filterLanguages":[],"filterServers":[],"filterTags":[],"filterTechs":[],"filterText":"","filterVulnSeverities":[],"includeArchived":true,"includeOnlyLicensed":true,"metadataFilters":[],"quickFilter":"","scoreLetterGrades":[]}
 ```
