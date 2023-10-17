@@ -20,7 +20,7 @@ Trace Bugtracker Request
 | recommendation | Recommendation | boolean |  | true |
 | references | References | boolean |  | true |
 | risk | Risk | boolean |  | true |
-| traces | Vulnerability/Instace UUIDs | list |  | true |
+| traces | Vulnerability/Instance UUIDs | list |  | true |
 ### Template
 ```
 {"agile_central_fields":[],"assignee":"","bugtracker_issue_type":"","confirmed":true,"epic_id":"","fields":[],"first":true,"github_fields":{"assignees":[],"labels":[],"milestone":0},"httpRequest":true,"intermediate":true,"last":true,"priority":"","recommendation":true,"references":true,"risk":true,"traces":[]}
