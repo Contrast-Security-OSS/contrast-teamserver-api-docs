@@ -8,7 +8,6 @@
   - [Agent](<./agent/Agent/README.md>)
   - [Agent session](<./agent/Agent session/README.md>)
 - APPLICATION
-  - [Application Activity](<./application/Application Activity/README.md>)
   - [Application Assess Rule Environment Configs](<./application/Application Assess Rule Environment Configs/README.md>)
   - [Application Components](<./application/Application Components/README.md>)
   - [Application Coverage](<./application/Application Coverage/README.md>)
@@ -22,6 +21,7 @@
   - [Application Vulnerability Filtering](<./application/Application Vulnerability Filtering/README.md>)
   - [Applications](<./application/Applications/README.md>)
   - [Assess Rule Configuration](<./application/Assess Rule Configuration/README.md>)
+  - [Application Activity](<./application/Application Activity/README.md>)
 - APPLICATION SECURITY SUMMARY
   - [Application security summary](<./application security summary/Application security summary/README.md>)
 - AUTHENTICATION
@@ -96,6 +96,7 @@
   - [Tags](<./tag/Tags/README.md>)
 - TEAMSERVER
 - TRACE
+  - [Agent session delta api](<./trace/Agent session delta api/README.md>)
   - [Application Trace Filters](<./trace/Application Trace Filters/README.md>)
   - [Organization Traces](<./trace/Organization Traces/README.md>)
   - [Organization Traces Stats](<./trace/Organization Traces Stats/README.md>)
@@ -114,17 +115,16 @@
   - [webhook](<./webhook/webhook/README.md>)
 ## Objects
 - UNGROUPED
+  - [AgentSessionDeltaResponse](<./objects/AgentSessionDeltaResponse.md>)
   - [AgentSessionMetadataOpenApiRequest](<./objects/AgentSessionMetadataOpenApiRequest.md>)
   - [AgentSessionResource](<./objects/AgentSessionResource.md>)
   - [AgentSessionsResponse](<./objects/AgentSessionsResponse.md>)
   - [ApplicationAgentSessionMetadataRequest](<./objects/ApplicationAgentSessionMetadataRequest.md>)
   - [ApplicationCustomAgentSessionsTotalResponse](<./objects/ApplicationCustomAgentSessionsTotalResponse.md>)
   - [ApplicationLatestAgentSessionResponse](<./objects/ApplicationLatestAgentSessionResponse.md>)
-  - [ApplicationResource](<./objects/ApplicationResource.md>)
   - [ApplicationResponse](<./objects/ApplicationResponse.md>)
   - [ApplicationSessionResponse](<./objects/ApplicationSessionResponse.md>)
   - [BaseApiFormResponse](<./objects/BaseApiFormResponse.md>)
-  - [BaseApiResponse](<./objects/BaseApiResponse.md>)
   - [Facet](<./objects/Facet.md>)
   - [FacetValue](<./objects/FacetValue.md>)
   - [FacetsResult](<./objects/FacetsResult.md>)
@@ -137,6 +137,7 @@
   - [RouteCoverageAggregationFilterResponse](<./objects/RouteCoverageAggregationFilterResponse.md>)
   - [RouteCoverageBaseApiResponse](<./objects/RouteCoverageBaseApiResponse.md>)
   - [RouteCoverageFilterItem](<./objects/RouteCoverageFilterItem.md>)
+  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageServersResponse](<./objects/RouteCoverageServersResponse.md>)
   - [RuleConfigurationRequest](<./objects/RuleConfigurationRequest.md>)
   - [SbavRouteSessionRequest](<./objects/SbavRouteSessionRequest.md>)
@@ -150,6 +151,10 @@
   - [TimeSeriesResult](<./objects/TimeSeriesResult.md>)
   - [TraceEventParameterItem](<./objects/TraceEventParameterItem.md>)
   - [TraceEventStackframeItem](<./objects/TraceEventStackframeItem.md>)
+  - [VulnerabilitiesAndSinkGroupsResponse](<./objects/VulnerabilitiesAndSinkGroupsResponse.md>)
+  - [VulnerabilityFilter](<./objects/VulnerabilityFilter.md>)
+  - [VulnerabilityGridItem](<./objects/VulnerabilityGridItem.md>)
+  - [VulnerabilityResource](<./objects/VulnerabilityResource.md>)
 - AGENT REQUEST
   - [AgentMetadataFieldConfiguration](<./objects/AgentMetadataFieldConfiguration.md>)
   - [AgentMetadataRequest](<./objects/AgentMetadataRequest.md>)
@@ -158,7 +163,6 @@
   - [AgentVersionsResponse](<./objects/AgentVersionsResponse.md>)
 - APPLICATION COVERAGE REQUEST
   - [RouteCoverageBySessionIDAndMetadataRequest](<./objects/RouteCoverageBySessionIDAndMetadataRequest.md>)
-  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageMetadataLabelValues](<./objects/RouteCoverageMetadataLabelValues.md>)
 - APPLICATION COVERAGE RESOURCE
   - [RouteCoverageMetricsResource](<./objects/RouteCoverageMetricsResource.md>)
@@ -191,6 +195,7 @@
   - [ApplicationModuleResource](<./objects/ApplicationModuleResource.md>)
   - [ApplicationNameResource](<./objects/ApplicationNameResource.md>)
   - [ApplicationProtectResource](<./objects/ApplicationProtectResource.md>)
+  - [ApplicationResource](<./objects/ApplicationResource.md>)
   - [ApplicationServerProtectionResource](<./objects/ApplicationServerProtectionResource.md>)
   - [ApplicationServerResource](<./objects/ApplicationServerResource.md>)
   - [ApplicationServerSettingsResource](<./objects/ApplicationServerSettingsResource.md>)
@@ -339,6 +344,7 @@
   - [AuthSettingsResponse](<./objects/AuthSettingsResponse.md>)
   - [BackgroundJobResponse](<./objects/BackgroundJobResponse.md>)
   - [BaseApiCountResponse](<./objects/BaseApiCountResponse.md>)
+  - [BaseApiResponse](<./objects/BaseApiResponse.md>)
   - [BulkBackgroundJobResponse](<./objects/BulkBackgroundJobResponse.md>)
   - [CategoryRulesResponse](<./objects/CategoryRulesResponse.md>)
   - [DateFormatsResponse](<./objects/DateFormatsResponse.md>)
@@ -422,6 +428,7 @@
   - [NotificationUserTriggerRequest](<./objects/NotificationUserTriggerRequest.md>)
 - NOTIFICATION RESOURCE
   - [AlertConditionResource](<./objects/AlertConditionResource.md>)
+  - [AlertResource](<./objects/AlertResource.md>)
   - [NotificationOrganizationSettingsResource](<./objects/NotificationOrganizationSettingsResource.md>)
   - [NotificationOrganizationTriggerChannelResource](<./objects/NotificationOrganizationTriggerChannelResource.md>)
   - [NotificationOrganizationTriggerResource](<./objects/NotificationOrganizationTriggerResource.md>)
@@ -519,7 +526,6 @@
   - [AlertAttackTriggerIntervalResource](<./objects/AlertAttackTriggerIntervalResource.md>)
   - [AlertAttackTriggerResource](<./objects/AlertAttackTriggerResource.md>)
   - [AlertAttackTriggerStatusResource](<./objects/AlertAttackTriggerStatusResource.md>)
-  - [AlertResource](<./objects/AlertResource.md>)
   - [ApplicationAttackResource](<./objects/ApplicationAttackResource.md>)
   - [AssessmentLicenseBreakdownResource](<./objects/AssessmentLicenseBreakdownResource.md>)
   - [AttackApplicationResource](<./objects/AttackApplicationResource.md>)
@@ -675,9 +681,8 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESOURCE
-  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
 - SECURITY RESPONSE
+  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
@@ -853,8 +858,17 @@
   - [VulnerabilityBaseRequest](<./objects/VulnerabilityBaseRequest.md>)
   - [VulnerabilityFilterRequest](<./objects/VulnerabilityFilterRequest.md>)
   - [VulnerabilityMarkStatusRequest](<./objects/VulnerabilityMarkStatusRequest.md>)
+  - [VulnerabilitySnapshotFiltersRequest](<./objects/VulnerabilitySnapshotFiltersRequest.md>)
+  - [VulnerabilitySubstatusAliasUpdateRequest](<./objects/VulnerabilitySubstatusAliasUpdateRequest.md>)
 - VULNERABILITY RESOURCE
+  - [VulnerabilityDiscoverySnapshotResource](<./objects/VulnerabilityDiscoverySnapshotResource.md>)
   - [VulnerabilityFilterItem](<./objects/VulnerabilityFilterItem.md>)
+  - [VulnerabilityInstanceDetailsResource](<./objects/VulnerabilityInstanceDetailsResource.md>)
+  - [VulnerabilitySeveritySnapshotResource](<./objects/VulnerabilitySeveritySnapshotResource.md>)
+  - [VulnerabilitySubstatusAliasResource](<./objects/VulnerabilitySubstatusAliasResource.md>)
+- VULNERABILITY RESPONSE
+  - [VulnerabilitySeveritySnapshotResponse](<./objects/VulnerabilitySeveritySnapshotResponse.md>)
+  - [VulnerabilitySubstatusAliasResponse](<./objects/VulnerabilitySubstatusAliasResponse.md>)
 - VULNTREND REQUEST
   - [VulnerabilityTrendFilterViewBulkDeleteRequest](<./objects/VulnerabilityTrendFilterViewBulkDeleteRequest.md>)
   - [VulnerabilityTrendFilterViewBulkEditRequest](<./objects/VulnerabilityTrendFilterViewBulkEditRequest.md>)
