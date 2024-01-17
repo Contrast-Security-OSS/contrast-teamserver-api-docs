@@ -18,5 +18,5 @@
 | version | Library version | string |  | false |
 ### Template
 ```
-{"class-count":0,"common":true,"cve-count":0,"external-date":{},"filename":"","library-id":0,"lines-of-code":0,"links":[],"longernal-date":{},"manifest":"","profiled":true,"servers":[],"sha1":"","url":"","used-class-count":0,"version":"","vulns":[]}
+{"class-count":0,"common":true,"cve-count":0,"external-date":{},"filename":"","library-id":0,"lines-of-code":0,"links":[],"longernal-date":{},"profiled":true,"servers":[],"sha1":"","url":"","used-class-count":0,"version":"","vulns":[]}
 ```
