@@ -19,6 +19,8 @@ Organization AutoLicense Resource
 | date_format | Organization date format | string |  | false |
 | disa_stig_enabled | DISA STIG feature enabled | boolean |  | false |
 | environments | Server Environments | set |  | false |
+| freeTrail | Is this a Free Trial organization? | boolean |  | false |
+| freeTrialState | Free Trial properties | freetrialstate |  | false |
 | freemium | Is this organization freemium? | boolean |  | false |
 | guest | Is user guest in this organization? | boolean |  | false |
 | harmony_enabled | HARMONY features enabled | boolean |  | false |
@@ -47,5 +49,5 @@ Organization AutoLicense Resource
 | vulnerability_trends_graph_enabled | Is vulnerability trends graph enabled | boolean |  | false |
 ### Template
 ```
-{"api_only":true,"app_library_status_enabled":true,"apps_onboarded":0,"assessment_license":true,"auto_license_assessment":true,"auto_license_protection":true,"beta_languages_enabled":true,"cloudnative_enabled":true,"creation_time":{},"cvss_scoring_type":"","date_format":"","disa_stig_enabled":true,"environments":[],"freemium":true,"account_id":"","guest":true,"harmony_enabled":true,"is_superadmin":true,"links":[],"locale":"","name":"","organization_uuid":"","ossFeature":true,"ossInventoryModeFeature":true,"ossLicense":true,"properties":{},"protect":true,"protection_enabled":true,"protection_license":true,"sample_application_id":"","sample_server_id":0,"sast_enabled":true,"security_standard_report_enabled":true,"server_environments":[],"telemetry_enabled":true,"time_format":"","timezone":"","user_access":true,"vulnerability_auto_verification_enabled":true,"vulnerability_duplicate_notification_enabled":true,"vulnerability_trends_graph_enabled":true}
+{"api_only":true,"app_library_status_enabled":true,"apps_onboarded":0,"assessment_license":true,"auto_license_assessment":true,"auto_license_protection":true,"beta_languages_enabled":true,"cloudnative_enabled":true,"creation_time":{},"cvss_scoring_type":"","date_format":"","disa_stig_enabled":true,"environments":[],"freeTrail":true,"freeTrialState":{},"freemium":true,"account_id":"","guest":true,"harmony_enabled":true,"is_superadmin":true,"links":[],"locale":"","name":"","organization_uuid":"","ossFeature":true,"ossInventoryModeFeature":true,"ossLicense":true,"properties":{},"protect":true,"protection_enabled":true,"protection_license":true,"sample_application_id":"","sample_server_id":0,"sast_enabled":true,"security_standard_report_enabled":true,"server_environments":[],"telemetry_enabled":true,"time_format":"","timezone":"","user_access":true,"vulnerability_auto_verification_enabled":true,"vulnerability_duplicate_notification_enabled":true,"vulnerability_trends_graph_enabled":true}
 ```
