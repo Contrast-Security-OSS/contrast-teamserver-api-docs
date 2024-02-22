@@ -123,7 +123,7 @@
   - [ApplicationCustomAgentSessionsTotalResponse](<./objects/ApplicationCustomAgentSessionsTotalResponse.md>)
   - [ApplicationLatestAgentSessionResponse](<./objects/ApplicationLatestAgentSessionResponse.md>)
   - [ApplicationNameAndLanguage](<./objects/ApplicationNameAndLanguage.md>)
-  - [ApplicationResponse](<./objects/ApplicationResponse.md>)
+  - [ApplicationResource](<./objects/ApplicationResource.md>)
   - [ApplicationSessionResponse](<./objects/ApplicationSessionResponse.md>)
   - [ApplicationsNamesAndLanguagesResponse](<./objects/ApplicationsNamesAndLanguagesResponse.md>)
   - [BaseApiFormResponse](<./objects/BaseApiFormResponse.md>)
@@ -197,7 +197,6 @@
   - [ApplicationModuleResource](<./objects/ApplicationModuleResource.md>)
   - [ApplicationNameResource](<./objects/ApplicationNameResource.md>)
   - [ApplicationProtectResource](<./objects/ApplicationProtectResource.md>)
-  - [ApplicationResource](<./objects/ApplicationResource.md>)
   - [ApplicationServerProtectionResource](<./objects/ApplicationServerProtectionResource.md>)
   - [ApplicationServerResource](<./objects/ApplicationServerResource.md>)
   - [ApplicationServerSettingsResource](<./objects/ApplicationServerSettingsResource.md>)
@@ -218,6 +217,7 @@
   - [ApplicationFilterCatalogResponse](<./objects/ApplicationFilterCatalogResponse.md>)
   - [ApplicationGroupsResponse](<./objects/ApplicationGroupsResponse.md>)
   - [ApplicationLicenseResponse](<./objects/ApplicationLicenseResponse.md>)
+  - [ApplicationResponse](<./objects/ApplicationResponse.md>)
   - [ApplicationRolesResponse](<./objects/ApplicationRolesResponse.md>)
   - [ApplicationServerSettingsEnvironmentResponse](<./objects/ApplicationServerSettingsEnvironmentResponse.md>)
   - [ApplicationServerSettingsResponse](<./objects/ApplicationServerSettingsResponse.md>)
@@ -683,8 +683,9 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESPONSE
+- SECURITY RESOURCE
   - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
+- SECURITY RESPONSE
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
