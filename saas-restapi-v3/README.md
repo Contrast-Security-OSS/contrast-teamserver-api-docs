@@ -66,15 +66,15 @@
   - [Organization Stats](<./organization/Organization Stats/README.md>)
   - [Organization admin approval workflow for vulnerability status](<./organization/Organization admin approval workflow for vulnerability status/README.md>)
   - [Organization feature](<./organization/Organization feature/README.md>)
-  - [Search](<./organization/Search/README.md>)
   - [Organizations](<./organization/Organizations/README.md>)
+  - [Search](<./organization/Search/README.md>)
 - PIVOTAL
 - PROFILE
   - [Profile](<./profile/Profile/README.md>)
 - RASP
   - [History Attacks](<./rasp/History Attacks/README.md>)
-  - [Rasp Event Filters](<./rasp/Rasp Event Filters/README.md>)
   - [Licenses](<./rasp/Licenses/README.md>)
+  - [Rasp Event Filters](<./rasp/Rasp Event Filters/README.md>)
   - [Users](<./rasp/Users/README.md>)
 - ROLE
   - [Roles](<./role/Roles/README.md>)
@@ -430,6 +430,7 @@
   - [NotificationUserTriggerRequest](<./objects/NotificationUserTriggerRequest.md>)
 - NOTIFICATION RESOURCE
   - [AlertConditionResource](<./objects/AlertConditionResource.md>)
+  - [AlertResource](<./objects/AlertResource.md>)
   - [NotificationOrganizationSettingsResource](<./objects/NotificationOrganizationSettingsResource.md>)
   - [NotificationOrganizationTriggerChannelResource](<./objects/NotificationOrganizationTriggerChannelResource.md>)
   - [NotificationOrganizationTriggerResource](<./objects/NotificationOrganizationTriggerResource.md>)
@@ -527,7 +528,6 @@
   - [AlertAttackTriggerIntervalResource](<./objects/AlertAttackTriggerIntervalResource.md>)
   - [AlertAttackTriggerResource](<./objects/AlertAttackTriggerResource.md>)
   - [AlertAttackTriggerStatusResource](<./objects/AlertAttackTriggerStatusResource.md>)
-  - [AlertResource](<./objects/AlertResource.md>)
   - [ApplicationAttackResource](<./objects/ApplicationAttackResource.md>)
   - [AssessmentLicenseBreakdownResource](<./objects/AssessmentLicenseBreakdownResource.md>)
   - [AttackApplicationResource](<./objects/AttackApplicationResource.md>)
