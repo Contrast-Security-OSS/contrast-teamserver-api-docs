@@ -28,6 +28,7 @@ Organization Resource
 | properties | Organization properties | map |  | false |
 | protect | Has user protect enabled in this organization? | boolean |  | false |
 | protection_enabled | Protection enabled | boolean |  | false |
+| rbacEnforceAssess | Is RBAC enforced assess? | boolean |  | false |
 | sample_application_id | Sample application ID | string |  | false |
 | sample_server_id | Sample server ID | long |  | false |
 | sast_enabled | SAST features enabled | boolean |  | false |
@@ -39,5 +40,5 @@ Organization Resource
 | vulnerability_trends_graph_enabled | Is vulnerability trends graph enabled | boolean |  | false |
 ### Template
 ```
-{"api_only":true,"apps_onboarded":0,"auto_license_assessment":true,"auto_license_protection":true,"beta_languages_enabled":true,"cloudnative_enabled":true,"creation_time":{},"cvss_scoring_type":"","date_format":"","freeTrail":true,"freeTrialState":{},"freemium":true,"account_id":"","guest":true,"harmony_enabled":true,"is_superadmin":true,"links":[],"locale":"","name":"","organization_uuid":"","ossLicense":true,"properties":{},"protect":true,"protection_enabled":true,"sample_application_id":"","sample_server_id":0,"sast_enabled":true,"security_standard_report_enabled":true,"server_environments":[],"time_format":"","timezone":"","user_access":true,"vulnerability_trends_graph_enabled":true}
+{"api_only":true,"apps_onboarded":0,"auto_license_assessment":true,"auto_license_protection":true,"beta_languages_enabled":true,"cloudnative_enabled":true,"creation_time":{},"cvss_scoring_type":"","date_format":"","freeTrail":true,"freeTrialState":{},"freemium":true,"account_id":"","guest":true,"harmony_enabled":true,"is_superadmin":true,"links":[],"locale":"","name":"","organization_uuid":"","ossLicense":true,"properties":{},"protect":true,"protection_enabled":true,"rbacEnforceAssess":true,"sample_application_id":"","sample_server_id":0,"sast_enabled":true,"security_standard_report_enabled":true,"server_environments":[],"time_format":"","timezone":"","user_access":true,"vulnerability_trends_graph_enabled":true}
 ```
