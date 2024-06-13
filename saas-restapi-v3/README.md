@@ -102,10 +102,10 @@
   - [Organization Traces Stats](<./trace/Organization Traces Stats/README.md>)
   - [Organization Vulnerabilities Filters](<./trace/Organization Vulnerabilities Filters/README.md>)
   - [Organization Vulnerability Bulk Share](<./trace/Organization Vulnerability Bulk Share/README.md>)
+  - [Security Controls](<./trace/Security Controls/README.md>)
   - [Trace Filters](<./trace/Trace Filters/README.md>)
   - [Trace Summary](<./trace/Trace Summary/README.md>)
   - [Vulnerability Notes](<./trace/Vulnerability Notes/README.md>)
-  - [Security Controls](<./trace/Security Controls/README.md>)
 - USER
   - [Report Preferences](<./user/Report Preferences/README.md>)
   - [Users](<./user/Users/README.md>)
@@ -431,7 +431,6 @@
   - [NotificationUserTriggerRequest](<./objects/NotificationUserTriggerRequest.md>)
 - NOTIFICATION RESOURCE
   - [AlertConditionResource](<./objects/AlertConditionResource.md>)
-  - [AlertResource](<./objects/AlertResource.md>)
   - [NotificationOrganizationSettingsResource](<./objects/NotificationOrganizationSettingsResource.md>)
   - [NotificationOrganizationTriggerChannelResource](<./objects/NotificationOrganizationTriggerChannelResource.md>)
   - [NotificationOrganizationTriggerResource](<./objects/NotificationOrganizationTriggerResource.md>)
@@ -529,6 +528,7 @@
   - [AlertAttackTriggerIntervalResource](<./objects/AlertAttackTriggerIntervalResource.md>)
   - [AlertAttackTriggerResource](<./objects/AlertAttackTriggerResource.md>)
   - [AlertAttackTriggerStatusResource](<./objects/AlertAttackTriggerStatusResource.md>)
+  - [AlertResource](<./objects/AlertResource.md>)
   - [ApplicationAttackResource](<./objects/ApplicationAttackResource.md>)
   - [AssessmentLicenseBreakdownResource](<./objects/AssessmentLicenseBreakdownResource.md>)
   - [AttackApplicationResource](<./objects/AttackApplicationResource.md>)
