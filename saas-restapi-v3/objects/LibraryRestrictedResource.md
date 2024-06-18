@@ -8,7 +8,8 @@ Library Restricted Resource
 | language | Library language | string |  | false |
 | library_name | Library name | string |  | false |
 | sha1 | Library SHA1 | string |  | false |
+| versions_behind | Versions behind | integer |  | false |
 ### Template
 ```
-{"language":"","library_name":"","links":[],"sha1":""}
+{"language":"","library_name":"","links":[],"sha1":"","versions_behind":0}
 ```
