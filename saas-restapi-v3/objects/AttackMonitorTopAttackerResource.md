@@ -5,15 +5,19 @@ RASP Attack Monitor Top Attacker Resource
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| blocked_events | Number of Blocked events | long |  | false |
-| exploited_events | Number of Exploited Events | long |  | false |
-| probed_events | Number of Probed events | long |  | false |
-| requests | Requests | integer |  | false |
-| requests_per_second | Requests Per Second | integer |  | false |
-| suspicious_events | Number of Suspicious Events | long |  | false |
-| timestamp | Timestamp | long |  | false |
-| total_events | Number of Total events | long |  | false |
+| attack_status | Attack status | attackstatus |  | false |
+| attack_types | Attack types | set |  | false |
+| attack_uuids | Attack UUIDs | list |  | false |
+| attacker | Attacker | string |  | false |
+| blocked_attacks | Number of Blocked Attacks | long |  | false |
+| exploited_attacks | Number of Exploited Attacks | long |  | false |
+| probed_attacks | Number of Probed Attacks | long |  | false |
+| source_ips | IP Addresses related to attacker | set |  | false |
+| source_name | Known source name | string |  | false |
+| suspicious_attacks | Number of Suspicious Attacks | long |  | false |
+| total_attacks | Number of Total Attacks | long |  | false |
+| unknown | Known source name | boolean |  | false |
 ### Template
 ```
-{"blocked_events":0,"exploited_events":0,"probed_events":0,"requests":0,"requests_per_second":0,"suspicious_events":0,"timestamp":0,"total_events":0}
+{"attack_status":"","attack_types":[],"attack_uuids":[],"attacker":"","attackersItems":[],"blocked_attacks":0,"exploited_attacks":0,"probed_attacks":0,"source_ips":[],"source_name":"","suspicious_attacks":0,"total_attacks":0,"unknown":true}
 ```
