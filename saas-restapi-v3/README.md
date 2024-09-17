@@ -73,8 +73,8 @@
   - [Profile](<./profile/Profile/README.md>)
 - RASP
   - [History Attacks](<./rasp/History Attacks/README.md>)
-  - [Licenses](<./rasp/Licenses/README.md>)
   - [Rasp Event Filters](<./rasp/Rasp Event Filters/README.md>)
+  - [Licenses](<./rasp/Licenses/README.md>)
   - [Users](<./rasp/Users/README.md>)
 - ROLE
   - [Roles](<./role/Roles/README.md>)
@@ -124,7 +124,6 @@
   - [ApplicationInfoResource](<./objects/ApplicationInfoResource.md>)
   - [ApplicationLatestAgentSessionResponse](<./objects/ApplicationLatestAgentSessionResponse.md>)
   - [ApplicationNameAndLanguage](<./objects/ApplicationNameAndLanguage.md>)
-  - [ApplicationResource](<./objects/ApplicationResource.md>)
   - [ApplicationSessionResponse](<./objects/ApplicationSessionResponse.md>)
   - [ApplicationsInfoResponse](<./objects/ApplicationsInfoResponse.md>)
   - [ApplicationsNamesAndLanguagesResponse](<./objects/ApplicationsNamesAndLanguagesResponse.md>)
@@ -200,6 +199,7 @@
   - [ApplicationModuleResource](<./objects/ApplicationModuleResource.md>)
   - [ApplicationNameResource](<./objects/ApplicationNameResource.md>)
   - [ApplicationProtectResource](<./objects/ApplicationProtectResource.md>)
+  - [ApplicationResource](<./objects/ApplicationResource.md>)
   - [ApplicationRoutingFrameworkResource](<./objects/ApplicationRoutingFrameworkResource.md>)
   - [ApplicationServerProtectionResource](<./objects/ApplicationServerProtectionResource.md>)
   - [ApplicationServerResource](<./objects/ApplicationServerResource.md>)
@@ -686,8 +686,9 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESPONSE
+- SECURITY RESOURCE
   - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
+- SECURITY RESPONSE
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
