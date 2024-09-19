@@ -9,8 +9,9 @@ User API Key Response
 | messages | List of messages | list |  | false |
 | service_key | Service key | string |  | false |
 | success | Indicates whether API response was successful or not | boolean |  | false |
+| token | Agent User Token UID | string |  | false |
 | user_uid | User UID | string |  | false |
 ### Template
 ```
-{"api_key":"","messages":[],"service_key":"","success":true,"user_uid":""}
+{"api_key":"","messages":[],"service_key":"","success":true,"token":"","user_uid":""}
 ```
