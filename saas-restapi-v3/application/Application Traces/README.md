@@ -9,6 +9,7 @@ Trace methods
 - [ /ng/{orgUuid}/traces/{appId}/export/xml/all (POST) ]( ./18b8fe387dd8229613eb2c7ee9e8faa2.md)
 - [ /ng/{orgUuid}/traces/{appId}/filter/{traceUuid} (GET) ]( ./bda519ccc66761b26ffefc3c8ff6127f.md)
 - [ /ng/{orgUuid}/traces/{appId}/ids (GET) ]( ./a86c9d7d27fd7775f7362c9f9dd4385e.md)
+- [ /ng/{orgUuid}/traces/{appId}/mark (PUT) ]( ./54c5563db36f2d4d45f0e92282add1c8.md)
 - [ /ng/{orgUuid}/traces/{appId}/policy/violations (GET) ]( ./c53118ce45ed20be30575ac4cd21056c.md)
 - [ /ng/{orgUuid}/traces/{appId}/quick (GET) ]( ./f97aa322c9b97e3f93c0e6ed70291fda.md)
 - [ /ng/{orgUuid}/traces/{appId}/snapshots/discovery (GET) ]( ./410cede7970230137d14dc601dae2f6c.md)

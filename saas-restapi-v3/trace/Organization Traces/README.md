@@ -8,6 +8,7 @@ Organization Trace methods
 - [ /ng/{orgUuid}/orgtraces/export/xml (POST) ]( ./413b28ce1b7bd01e6cfffdc1470b04aa.md)
 - [ /ng/{orgUuid}/orgtraces/export/xml/all (POST) ]( ./0cedff6934a1432119dd961e8d49bf4e.md)
 - [ /ng/{orgUuid}/orgtraces/ids (GET) ]( ./9a5e29cd8927777c5431d54614207b89.md)
+- [ /ng/{orgUuid}/orgtraces/mark (PUT) ]( ./42fe2d9271ab3198d72c89806865307f.md)
 - [ /ng/{orgUuid}/orgtraces/policy/violations (GET) ]( ./e5b1db3b5ab817019fa30aaebeafc33a.md)
 - [ /ng/{orgUuid}/orgtraces/quick (GET) ]( ./62e69cabdece4f59908c225b1789e9c4.md)
 - [ /ng/{orgUuid}/orgtraces/quick (POST) ]( ./7fcaabdd12bfc81571bab14c3002be0f.md)
