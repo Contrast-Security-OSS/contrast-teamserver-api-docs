@@ -66,8 +66,8 @@
   - [Organization Stats](<./organization/Organization Stats/README.md>)
   - [Organization admin approval workflow for vulnerability status](<./organization/Organization admin approval workflow for vulnerability status/README.md>)
   - [Organization feature](<./organization/Organization feature/README.md>)
-  - [Search](<./organization/Search/README.md>)
   - [Organizations](<./organization/Organizations/README.md>)
+  - [Search](<./organization/Search/README.md>)
 - PIVOTAL
 - PROFILE
   - [Profile](<./profile/Profile/README.md>)
@@ -104,10 +104,10 @@
   - [Organization Traces Stats](<./trace/Organization Traces Stats/README.md>)
   - [Organization Vulnerabilities Filters](<./trace/Organization Vulnerabilities Filters/README.md>)
   - [Organization Vulnerability Bulk Share](<./trace/Organization Vulnerability Bulk Share/README.md>)
-  - [Security Controls](<./trace/Security Controls/README.md>)
   - [Trace Filters](<./trace/Trace Filters/README.md>)
   - [Trace Summary](<./trace/Trace Summary/README.md>)
   - [Vulnerability Notes](<./trace/Vulnerability Notes/README.md>)
+  - [Security Controls](<./trace/Security Controls/README.md>)
 - USER
   - [Report Preferences](<./user/Report Preferences/README.md>)
   - [Users](<./user/Users/README.md>)
@@ -127,7 +127,6 @@
   - [ApplicationInfoResource](<./objects/ApplicationInfoResource.md>)
   - [ApplicationLatestAgentSessionResponse](<./objects/ApplicationLatestAgentSessionResponse.md>)
   - [ApplicationNameAndLanguage](<./objects/ApplicationNameAndLanguage.md>)
-  - [ApplicationResponse](<./objects/ApplicationResponse.md>)
   - [ApplicationSessionResponse](<./objects/ApplicationSessionResponse.md>)
   - [ApplicationsInfoResponse](<./objects/ApplicationsInfoResponse.md>)
   - [ApplicationsNamesAndLanguagesResponse](<./objects/ApplicationsNamesAndLanguagesResponse.md>)
@@ -224,6 +223,7 @@
   - [ApplicationFilterCatalogResponse](<./objects/ApplicationFilterCatalogResponse.md>)
   - [ApplicationGroupsResponse](<./objects/ApplicationGroupsResponse.md>)
   - [ApplicationLicenseResponse](<./objects/ApplicationLicenseResponse.md>)
+  - [ApplicationResponse](<./objects/ApplicationResponse.md>)
   - [ApplicationRolesResponse](<./objects/ApplicationRolesResponse.md>)
   - [ApplicationServerSettingsEnvironmentResponse](<./objects/ApplicationServerSettingsEnvironmentResponse.md>)
   - [ApplicationServerSettingsResponse](<./objects/ApplicationServerSettingsResponse.md>)
@@ -691,8 +691,9 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESPONSE
+- SECURITY RESOURCE
   - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
+- SECURITY RESPONSE
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
