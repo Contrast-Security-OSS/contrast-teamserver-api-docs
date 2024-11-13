@@ -17,6 +17,7 @@ Jira Bugtracker Fields Request
 | credentials | New set of Bugtracker credentials | BugtrackerCredentialsRequest |  | false |
 | credentials_id | Id of the used credentials set | string |  | false |
 | epic_id | Bugtracker default epic id | string |  | false |
+| exclude_sensitive_info | Exclude bugtracker sensitive info | boolean |  | false |
 | fields | List of customized fields | list |  | false |
 | host | Host | string |  | false |
 | importance | app importance | list |  | false |
@@ -38,5 +39,5 @@ Jira Bugtracker Fields Request
 | username | Username | string |  | false |
 ### Template
 ```
-{"all_applications":true,"app_criterion":true,"applications":[],"assignee":"","auto_create_tickets_all_rules":true,"auto_create_tickets_enabled":true,"auto_create_tickets_severities":[],"auto_create_tickets_rules":[],"bugtracker_id":0,"credentials":{"credentials_update":true,"host":"","name":"","password":"","username":""},"credentials_id":"","epic_id":"","fields":[],"host":"","importance":[],"integrations":[],"issue_type":"","name":"","password":"","priority_critical":"","priority_field_available":true,"priority_high":"","priority_low":"","priority_medium":"","priority_note":"","project":"","serverless":true,"serverless_account_ids":[],"serverless_categories":[],"url":"","username":""}
+{"all_applications":true,"app_criterion":true,"applications":[],"assignee":"","auto_create_tickets_all_rules":true,"auto_create_tickets_enabled":true,"auto_create_tickets_severities":[],"auto_create_tickets_rules":[],"bugtracker_id":0,"credentials":{"credentials_update":true,"host":"","name":"","password":"","username":""},"credentials_id":"","epic_id":"","exclude_sensitive_info":true,"fields":[],"host":"","importance":[],"integrations":[],"issue_type":"","name":"","password":"","priority_critical":"","priority_field_available":true,"priority_high":"","priority_low":"","priority_medium":"","priority_note":"","project":"","serverless":true,"serverless_account_ids":[],"serverless_categories":[],"url":"","username":""}
 ```
