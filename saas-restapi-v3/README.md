@@ -235,7 +235,6 @@
   - [ApplicationTechnologiesResponse](<./objects/ApplicationTechnologiesResponse.md>)
   - [ApplicationTechsResponse](<./objects/ApplicationTechsResponse.md>)
   - [ApplicationsAllowedResponse](<./objects/ApplicationsAllowedResponse.md>)
-  - [ApplicationsBaseResponse](<./objects/ApplicationsBaseResponse.md>)
   - [ApplicationsFilterResponse](<./objects/ApplicationsFilterResponse.md>)
   - [ApplicationsIdentityResponse](<./objects/ApplicationsIdentityResponse.md>)
   - [ApplicationsNameResponse](<./objects/ApplicationsNameResponse.md>)
@@ -442,6 +441,7 @@
   - [NotificationUserTriggerRequest](<./objects/NotificationUserTriggerRequest.md>)
 - NOTIFICATION RESOURCE
   - [AlertConditionResource](<./objects/AlertConditionResource.md>)
+  - [AlertResource](<./objects/AlertResource.md>)
   - [NotificationOrganizationSettingsResource](<./objects/NotificationOrganizationSettingsResource.md>)
   - [NotificationOrganizationTriggerChannelResource](<./objects/NotificationOrganizationTriggerChannelResource.md>)
   - [NotificationOrganizationTriggerResource](<./objects/NotificationOrganizationTriggerResource.md>)
@@ -539,7 +539,6 @@
   - [AlertAttackTriggerIntervalResource](<./objects/AlertAttackTriggerIntervalResource.md>)
   - [AlertAttackTriggerResource](<./objects/AlertAttackTriggerResource.md>)
   - [AlertAttackTriggerStatusResource](<./objects/AlertAttackTriggerStatusResource.md>)
-  - [AlertResource](<./objects/AlertResource.md>)
   - [ApplicationAttackResource](<./objects/ApplicationAttackResource.md>)
   - [AssessmentLicenseBreakdownResource](<./objects/AssessmentLicenseBreakdownResource.md>)
   - [AttackApplicationResource](<./objects/AttackApplicationResource.md>)
@@ -697,8 +696,9 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESPONSE
+- SECURITY RESOURCE
   - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
+- SECURITY RESPONSE
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
@@ -745,6 +745,8 @@
   - [URLServerResponse](<./objects/URLServerResponse.md>)
 - SOFTWARE COMPONENT ANALYSIS
   - [CVEFilterRequest](<./objects/CVEFilterRequest.md>)
+  - [CVEFilterResponse](<./objects/CVEFilterResponse.md>)
+  - [ServerAppRiskDetail](<./objects/ServerAppRiskDetail.md>)
 - TAG REQUEST
   - [TagRequest](<./objects/TagRequest.md>)
   - [TagsVulnerabilitiesRequest](<./objects/TagsVulnerabilitiesRequest.md>)
