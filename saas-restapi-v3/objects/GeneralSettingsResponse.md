@@ -6,6 +6,7 @@ Base API form Response
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
 | restrictedEditRoleEnabled | true if restricted edit role is allowed, false otherwise | boolean |  | false |
+| aimlServiceEnabled | true if AIML Service is enabled, false otherwise | boolean |  | false |
 | success | Indicates whether API response was successful or not | boolean |  | false |
 | isEOP | true if Teamserver is running in EOP mode, false otherwise | boolean |  | false |
 | agentUrl | Url for Agent Traffic | string |  | false |
@@ -13,5 +14,5 @@ Base API form Response
 | messages | List of messages | list |  | false |
 ### Template
 ```
-{"agentUrl":"","diagnosticsCollectionEnabled":true,"isEOP":true,"messages":[],"restrictedEditRoleEnabled":true,"success":true}
+{"agentUrl":"","aimlServiceEnabled":true,"diagnosticsCollectionEnabled":true,"isEOP":true,"messages":[],"restrictedEditRoleEnabled":true,"success":true}
 ```
