@@ -8,7 +8,6 @@
   - [Agent](<./agent/Agent/README.md>)
   - [Agent session](<./agent/Agent session/README.md>)
 - APPLICATION
-  - [Application Activity](<./application/Application Activity/README.md>)
   - [Application Assess Rule Environment Configs](<./application/Application Assess Rule Environment Configs/README.md>)
   - [Application Components](<./application/Application Components/README.md>)
   - [Application Coverage](<./application/Application Coverage/README.md>)
@@ -22,6 +21,7 @@
   - [Application Vulnerability Filtering](<./application/Application Vulnerability Filtering/README.md>)
   - [Applications](<./application/Applications/README.md>)
   - [Assess Rule Configuration](<./application/Assess Rule Configuration/README.md>)
+  - [Application Activity](<./application/Application Activity/README.md>)
 - APPLICATION SECURITY SUMMARY
   - [Application security summary](<./application security summary/Application security summary/README.md>)
 - AUTHENTICATION
@@ -441,6 +441,7 @@
   - [NotificationUserTriggerRequest](<./objects/NotificationUserTriggerRequest.md>)
 - NOTIFICATION RESOURCE
   - [AlertConditionResource](<./objects/AlertConditionResource.md>)
+  - [AlertResource](<./objects/AlertResource.md>)
   - [NotificationOrganizationSettingsResource](<./objects/NotificationOrganizationSettingsResource.md>)
   - [NotificationOrganizationTriggerChannelResource](<./objects/NotificationOrganizationTriggerChannelResource.md>)
   - [NotificationOrganizationTriggerResource](<./objects/NotificationOrganizationTriggerResource.md>)
@@ -538,7 +539,6 @@
   - [AlertAttackTriggerIntervalResource](<./objects/AlertAttackTriggerIntervalResource.md>)
   - [AlertAttackTriggerResource](<./objects/AlertAttackTriggerResource.md>)
   - [AlertAttackTriggerStatusResource](<./objects/AlertAttackTriggerStatusResource.md>)
-  - [AlertResource](<./objects/AlertResource.md>)
   - [ApplicationAttackResource](<./objects/ApplicationAttackResource.md>)
   - [AssessmentLicenseBreakdownResource](<./objects/AssessmentLicenseBreakdownResource.md>)
   - [AttackApplicationResource](<./objects/AttackApplicationResource.md>)
@@ -696,9 +696,8 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESOURCE
-  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
 - SECURITY RESPONSE
+  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
