@@ -9,6 +9,7 @@ Trace Note Resource
 | creator | Creator | string |  | false |
 | creator_uid | Creator uid | string |  | false |
 | deletable | Deletable | boolean |  | false |
+| hasCommentJira | Indicates if this note has related comments in JIRA | boolean |  | false |
 | id | Note id | string |  | false |
 | last_modification | Time last modified | long |  | false |
 | last_updater | Last updater | string |  | false |
@@ -18,5 +19,5 @@ Trace Note Resource
 | readOnlyPropertyType | Type of read only properties used | string |  | false |
 ### Template
 ```
-{"creation":0,"creator":"","creator_uid":"","deletable":true,"last_modification":0,"last_updater":"","last_updater_uid":"","links":[],"note":"","id":"","properties":[],"readOnlyPropertyType":""}
+{"creation":0,"creator":"","creator_uid":"","deletable":true,"hasCommentJira":true,"last_modification":0,"last_updater":"","last_updater_uid":"","links":[],"note":"","id":"","properties":[],"readOnlyPropertyType":""}
 ```

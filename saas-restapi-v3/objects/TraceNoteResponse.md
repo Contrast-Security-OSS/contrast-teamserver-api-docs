@@ -11,5 +11,5 @@ Trace Note Response
 | success | Indicates whether API response was successful or not | boolean |  | false |
 ### Template
 ```
-{"errors":[],"messages":[],"note":{"creation":0,"creator":"","creator_uid":"","deletable":true,"last_modification":0,"last_updater":"","last_updater_uid":"","links":[],"note":"","id":"","properties":[],"readOnlyPropertyType":""},"success":true}
+{"errors":[],"messages":[],"note":{"creation":0,"creator":"","creator_uid":"","deletable":true,"hasCommentJira":true,"last_modification":0,"last_updater":"","last_updater_uid":"","links":[],"note":"","id":"","properties":[],"readOnlyPropertyType":""},"success":true}
 ```
