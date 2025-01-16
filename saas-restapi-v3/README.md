@@ -4,6 +4,7 @@
 ## APIs
 - UNGROUPED
   - [NgApplicationsOpenApiRestController](<./ungrouped/NgApplicationsOpenApiRestController/README.md>)
+  - [RBAC](<./ungrouped/RBAC/README.md>)
 - AGENT
   - [Agent](<./agent/Agent/README.md>)
   - [Agent session](<./agent/Agent session/README.md>)
@@ -130,6 +131,7 @@
   - [ApplicationLatestAgentSessionResponse](<./objects/ApplicationLatestAgentSessionResponse.md>)
   - [ApplicationNameAndLanguage](<./objects/ApplicationNameAndLanguage.md>)
   - [ApplicationResource](<./objects/ApplicationResource.md>)
+  - [ApplicationResponse](<./objects/ApplicationResponse.md>)
   - [ApplicationSessionResponse](<./objects/ApplicationSessionResponse.md>)
   - [ApplicationsInfoResponse](<./objects/ApplicationsInfoResponse.md>)
   - [ApplicationsNamesAndLanguagesResponse](<./objects/ApplicationsNamesAndLanguagesResponse.md>)
@@ -138,6 +140,9 @@
   - [FacetValue](<./objects/FacetValue.md>)
   - [FacetsResult](<./objects/FacetsResult.md>)
   - [GeneralSettingsResponse](<./objects/GeneralSettingsResponse.md>)
+  - [IpDenylistDetailResource](<./objects/IpDenylistDetailResource.md>)
+  - [IpDenylistDetailsRequest](<./objects/IpDenylistDetailsRequest.md>)
+  - [IpDenylistDetailsResponse](<./objects/IpDenylistDetailsResponse.md>)
   - [MetadataFieldResource](<./objects/MetadataFieldResource.md>)
   - [NgQuickFilterResponse](<./objects/NgQuickFilterResponse.md>)
   - [RatingFacet](<./objects/RatingFacet.md>)
@@ -146,7 +151,6 @@
   - [RouteCoverageAggregationFilterResponse](<./objects/RouteCoverageAggregationFilterResponse.md>)
   - [RouteCoverageBaseApiResponse](<./objects/RouteCoverageBaseApiResponse.md>)
   - [RouteCoverageFilterItem](<./objects/RouteCoverageFilterItem.md>)
-  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageServersResponse](<./objects/RouteCoverageServersResponse.md>)
   - [RuleConfigurationRequest](<./objects/RuleConfigurationRequest.md>)
   - [SbavRouteSessionRequest](<./objects/SbavRouteSessionRequest.md>)
@@ -160,6 +164,9 @@
   - [TimeSeriesResult](<./objects/TimeSeriesResult.md>)
   - [TraceEventParameterItem](<./objects/TraceEventParameterItem.md>)
   - [TraceEventStackframeItem](<./objects/TraceEventStackframeItem.md>)
+  - [VirtualPatchDetailResource](<./objects/VirtualPatchDetailResource.md>)
+  - [VirtualPatchDetailsRequest](<./objects/VirtualPatchDetailsRequest.md>)
+  - [VirtualPatchDetailsResponse](<./objects/VirtualPatchDetailsResponse.md>)
   - [VulnerabilitiesAndSinkGroupsResponse](<./objects/VulnerabilitiesAndSinkGroupsResponse.md>)
   - [VulnerabilityFilter](<./objects/VulnerabilityFilter.md>)
   - [VulnerabilityGridItem](<./objects/VulnerabilityGridItem.md>)
@@ -172,6 +179,7 @@
   - [AgentVersionsResponse](<./objects/AgentVersionsResponse.md>)
 - APPLICATION COVERAGE REQUEST
   - [RouteCoverageBySessionIDAndMetadataRequest](<./objects/RouteCoverageBySessionIDAndMetadataRequest.md>)
+  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageMetadataLabelValues](<./objects/RouteCoverageMetadataLabelValues.md>)
 - APPLICATION COVERAGE RESOURCE
   - [RouteCoverageMetricsResource](<./objects/RouteCoverageMetricsResource.md>)
@@ -225,7 +233,6 @@
   - [ApplicationFilterCatalogResponse](<./objects/ApplicationFilterCatalogResponse.md>)
   - [ApplicationGroupsResponse](<./objects/ApplicationGroupsResponse.md>)
   - [ApplicationLicenseResponse](<./objects/ApplicationLicenseResponse.md>)
-  - [ApplicationResponse](<./objects/ApplicationResponse.md>)
   - [ApplicationRolesResponse](<./objects/ApplicationRolesResponse.md>)
   - [ApplicationServerSettingsEnvironmentResponse](<./objects/ApplicationServerSettingsEnvironmentResponse.md>)
   - [ApplicationServerSettingsResponse](<./objects/ApplicationServerSettingsResponse.md>)
@@ -693,8 +700,9 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESPONSE
+- SECURITY RESOURCE
   - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
+- SECURITY RESPONSE
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
