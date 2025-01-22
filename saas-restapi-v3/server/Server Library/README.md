@@ -7,4 +7,5 @@ Server libraries methods
 - [ /ng/{orgUuid}/servers/{serverId}/libraries/breakdown/scores (GET) ]( ./46a9be7ed43661e6cd257b419222084c.md)
 - [ /ng/{orgUuid}/servers/{serverId}/libraries/filter (GET) ]( ./32f488fe4c363b453dd10bc982a56115.md)
 - [ /ng/{orgUuid}/servers/{serverId}/libraries/filters/{librariesFilterType}/listing (GET) ]( ./9833a12c60ff35cbabb5fb5b863df817.md)
+- [ /ng/{orgUuid}/servers/{serverId}/libraries/sbom/{type} (GET) ]( ./8c0b9c189242fafc4cfa92fe6406bd71.md)
 - [ /ng/{orgUuid}/servers/{serverId}/libraries/stats (GET) ]( ./f7b25eb46e4c94754c9b3143d60949bc.md)

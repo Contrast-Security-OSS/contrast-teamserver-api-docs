@@ -67,8 +67,8 @@
   - [Organization Stats](<./organization/Organization Stats/README.md>)
   - [Organization admin approval workflow for vulnerability status](<./organization/Organization admin approval workflow for vulnerability status/README.md>)
   - [Organization feature](<./organization/Organization feature/README.md>)
-  - [Organizations](<./organization/Organizations/README.md>)
   - [Search](<./organization/Search/README.md>)
+  - [Organizations](<./organization/Organizations/README.md>)
 - PIVOTAL
 - PROFILE
   - [Profile](<./profile/Profile/README.md>)
@@ -130,6 +130,7 @@
   - [ApplicationInfoResource](<./objects/ApplicationInfoResource.md>)
   - [ApplicationLatestAgentSessionResponse](<./objects/ApplicationLatestAgentSessionResponse.md>)
   - [ApplicationNameAndLanguage](<./objects/ApplicationNameAndLanguage.md>)
+  - [ApplicationResource](<./objects/ApplicationResource.md>)
   - [ApplicationResponse](<./objects/ApplicationResponse.md>)
   - [ApplicationSessionResponse](<./objects/ApplicationSessionResponse.md>)
   - [ApplicationsInfoResponse](<./objects/ApplicationsInfoResponse.md>)
@@ -151,7 +152,6 @@
   - [RouteCoverageAggregationFilterResponse](<./objects/RouteCoverageAggregationFilterResponse.md>)
   - [RouteCoverageBaseApiResponse](<./objects/RouteCoverageBaseApiResponse.md>)
   - [RouteCoverageFilterItem](<./objects/RouteCoverageFilterItem.md>)
-  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageServersResponse](<./objects/RouteCoverageServersResponse.md>)
   - [RuleConfigurationRequest](<./objects/RuleConfigurationRequest.md>)
   - [SbavRouteSessionRequest](<./objects/SbavRouteSessionRequest.md>)
@@ -180,6 +180,7 @@
   - [AgentVersionsResponse](<./objects/AgentVersionsResponse.md>)
 - APPLICATION COVERAGE REQUEST
   - [RouteCoverageBySessionIDAndMetadataRequest](<./objects/RouteCoverageBySessionIDAndMetadataRequest.md>)
+  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageMetadataLabelValues](<./objects/RouteCoverageMetadataLabelValues.md>)
 - APPLICATION COVERAGE RESOURCE
   - [RouteCoverageMetricsResource](<./objects/RouteCoverageMetricsResource.md>)
@@ -212,7 +213,6 @@
   - [ApplicationModuleResource](<./objects/ApplicationModuleResource.md>)
   - [ApplicationNameResource](<./objects/ApplicationNameResource.md>)
   - [ApplicationProtectResource](<./objects/ApplicationProtectResource.md>)
-  - [ApplicationResource](<./objects/ApplicationResource.md>)
   - [ApplicationRoutingFrameworkResource](<./objects/ApplicationRoutingFrameworkResource.md>)
   - [ApplicationServerProtectionResource](<./objects/ApplicationServerProtectionResource.md>)
   - [ApplicationServerResource](<./objects/ApplicationServerResource.md>)
@@ -384,18 +384,14 @@
 - JOB OUTCOME POLICY RESPONSE
   - [Job Outcome Policy Response](<./objects/Job Outcome Policy Response.md>)
 - LIBRARY RESOURCE
-  - [ApplicationLibraryBaseResource](<./objects/ApplicationLibraryBaseResource.md>)
   - [LibrariesStatsResource](<./objects/LibrariesStatsResource.md>)
-  - [LibraryBugtrackerTicketResource](<./objects/LibraryBugtrackerTicketResource.md>)
   - [LibraryFilterItem](<./objects/LibraryFilterItem.md>)
   - [LibraryFilterRequest](<./objects/LibraryFilterRequest.md>)
   - [LibraryLicenseRestrictionResource](<./objects/LibraryLicenseRestrictionResource.md>)
   - [LibraryOutOfDateBreakdownResource](<./objects/LibraryOutOfDateBreakdownResource.md>)
   - [LibraryPolicyRequest](<./objects/LibraryPolicyRequest.md>)
-  - [LibraryResource](<./objects/LibraryResource.md>)
   - [LibraryRestrictedResource](<./objects/LibraryRestrictedResource.md>)
   - [LibraryScoreBreakdownResource](<./objects/LibraryScoreBreakdownResource.md>)
-  - [LibraryVulnsResource](<./objects/LibraryVulnsResource.md>)
 - LIBRARY RESPONSE
   - [LibrariesOutOfDateBreakdownResponse](<./objects/LibrariesOutOfDateBreakdownResponse.md>)
   - [LibrariesPolicyResponse](<./objects/LibrariesPolicyResponse.md>)
@@ -748,8 +744,6 @@
   - [URLServerResponse](<./objects/URLServerResponse.md>)
 - SOFTWARE COMPONENT ANALYSIS
   - [CVEFilterRequest](<./objects/CVEFilterRequest.md>)
-  - [CVEFilterResponse](<./objects/CVEFilterResponse.md>)
-  - [ServerAppRiskDetail](<./objects/ServerAppRiskDetail.md>)
 - TAG REQUEST
   - [TagRequest](<./objects/TagRequest.md>)
   - [TagsVulnerabilitiesRequest](<./objects/TagsVulnerabilitiesRequest.md>)
