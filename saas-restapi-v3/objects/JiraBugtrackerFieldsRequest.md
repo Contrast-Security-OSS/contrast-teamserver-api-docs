@@ -17,7 +17,7 @@ Jira Bugtracker Fields Request
 | credentials | New set of Bugtracker credentials | BugtrackerCredentialsRequest |  | false |
 | credentials_id | Id of the used credentials set | string |  | false |
 | epic_id | Bugtracker default epic id | string |  | false |
-| exclude_sensitive_info | Exclude bugtracker sensitive info | boolean |  | false |
+| exclude_sensitive_info | Exclude bug tracker sensitive info | boolean |  | false |
 | fields | List of customized fields | list |  | false |
 | host | Host | string |  | false |
 | importance | app importance | list |  | false |
