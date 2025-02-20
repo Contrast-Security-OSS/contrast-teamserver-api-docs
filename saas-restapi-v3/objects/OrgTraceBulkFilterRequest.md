@@ -20,6 +20,7 @@ Org Trace Bulk Filter Request
 | licensedOnly | Show vulnerabilities only from licensed apps | boolean |  | false |
 | matchRoutePathParams | Look for matching routes with path params | boolean |  | false |
 | metadataFilters | Session metadata filter groups selected | list |  | false |
+| protectStatuses | List of protect statuses | list |  | false |
 | quickFilter | Quick Filter | vulnerabilityquickfiltertype |  | false |
 | routes | Route coverage hashes | array |  | false |
 | securityStandards | Security Standards | array |  | false |
@@ -39,5 +40,5 @@ Org Trace Bulk Filter Request
 | vulnTypes | Vulnerability Type | array |  | false |
 ### Template
 ```
-{"agentSessionId":"","appVersionTags":[],"applicationID":"","applicationIds":[],"applicationImportances":[],"applicationMetadataFilters":[],"applicationTags":[],"endDate":0,"environments":[],"excludedTraces":[],"filterText":"","languages":[],"licensedOnly":true,"matchRoutePathParams":true,"metadataFilters":[],"quickFilter":"","routes":[],"securityStandards":[],"servers":[],"severities":[],"sinkValues":[],"sinks":[],"startDate":0,"status":[],"substatus":[],"tags":[],"technologies":[],"timestampFilter":"","tracked":true,"untracked":true,"urls":[],"vulnTypes":[]}
+{"agentSessionId":"","appVersionTags":[],"applicationID":"","applicationIds":[],"applicationImportances":[],"applicationMetadataFilters":[],"applicationTags":[],"endDate":0,"environments":[],"excludedTraces":[],"filterText":"","languages":[],"licensedOnly":true,"matchRoutePathParams":true,"metadataFilters":[],"protectStatuses":[],"quickFilter":"","routes":[],"securityStandards":[],"servers":[],"severities":[],"sinkValues":[],"sinks":[],"startDate":0,"status":[],"substatus":[],"tags":[],"technologies":[],"timestampFilter":"","tracked":true,"untracked":true,"urls":[],"vulnTypes":[]}
 ```
