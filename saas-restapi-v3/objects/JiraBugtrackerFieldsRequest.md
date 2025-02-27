@@ -32,6 +32,7 @@ Jira Bugtracker Fields Request
 | priority_medium | Priority medium | string |  | false |
 | priority_note | Priority note | string |  | false |
 | project | Project | string |  | false |
+| send_tags | Show vulnerability tags in the bug tracker | boolean |  | false |
 | serverless | Whether or not the Jira integration is reporting on serverless applications | boolean |  | false |
 | serverless_account_ids | List of serverless account ids | set |  | false |
 | serverless_categories | List of serverless categories | set |  | false |
@@ -39,5 +40,5 @@ Jira Bugtracker Fields Request
 | username | Username | string |  | false |
 ### Template
 ```
-{"all_applications":true,"app_criterion":true,"applications":[],"assignee":"","auto_create_tickets_all_rules":true,"auto_create_tickets_enabled":true,"auto_create_tickets_severities":[],"auto_create_tickets_rules":[],"bugtracker_id":0,"credentials":{"credentials_update":true,"host":"","name":"","password":"","username":""},"credentials_id":"","epic_id":"","exclude_sensitive_info":true,"fields":[],"host":"","importance":[],"integrations":[],"issue_type":"","name":"","password":"","priority_critical":"","priority_field_available":true,"priority_high":"","priority_low":"","priority_medium":"","priority_note":"","project":"","serverless":true,"serverless_account_ids":[],"serverless_categories":[],"url":"","username":""}
+{"all_applications":true,"app_criterion":true,"applications":[],"assignee":"","auto_create_tickets_all_rules":true,"auto_create_tickets_enabled":true,"auto_create_tickets_severities":[],"auto_create_tickets_rules":[],"bugtracker_id":0,"credentials":{"credentials_update":true,"host":"","name":"","password":"","username":""},"credentials_id":"","epic_id":"","exclude_sensitive_info":true,"fields":[],"host":"","importance":[],"integrations":[],"issue_type":"","name":"","password":"","priority_critical":"","priority_field_available":true,"priority_high":"","priority_low":"","priority_medium":"","priority_note":"","project":"","send_tags":true,"serverless":true,"serverless_account_ids":[],"serverless_categories":[],"url":"","username":""}
 ```

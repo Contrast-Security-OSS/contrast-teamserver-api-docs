@@ -31,10 +31,11 @@ VSTS Bugtracker Fields Request
 | priority_medium | Priority medium | string |  | false |
 | priority_note | Priority note | string |  | false |
 | project | Project | string |  | false |
+| send_tags | Show vulnerability tags in the bug tracker | boolean |  | false |
 | team | Project team | string |  | false |
 | username | Username | string |  | false |
 | version | Bugtracker version | vstsversion |  | true |
 ### Template
 ```
-{"all_applications":true,"app_criterion":true,"applications":[],"area":"","assignee":"","auto_create_tickets_all_rules":true,"auto_create_tickets_enabled":true,"auto_create_tickets_severities":[],"auto_create_tickets_rules":[],"bugtracker_id":0,"credentials":{"credentials_update":true,"host":"","name":"","password":"","username":""},"credentials_id":"","exclude_sensitive_info":true,"host":"","importance":[],"integrations":[],"issue_type":"","name":"","password":"","priority_critical":"","priority_field_available":true,"priority_high":"","priority_low":"","priority_medium":"","priority_note":"","project":"","team":"","username":"","version":""}
+{"all_applications":true,"app_criterion":true,"applications":[],"area":"","assignee":"","auto_create_tickets_all_rules":true,"auto_create_tickets_enabled":true,"auto_create_tickets_severities":[],"auto_create_tickets_rules":[],"bugtracker_id":0,"credentials":{"credentials_update":true,"host":"","name":"","password":"","username":""},"credentials_id":"","exclude_sensitive_info":true,"host":"","importance":[],"integrations":[],"issue_type":"","name":"","password":"","priority_critical":"","priority_field_available":true,"priority_high":"","priority_low":"","priority_medium":"","priority_note":"","project":"","send_tags":true,"team":"","username":"","version":""}
 ```
