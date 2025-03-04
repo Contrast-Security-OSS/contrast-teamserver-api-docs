@@ -57,6 +57,7 @@ application/json
 | applicationImportances | List of application importances | list | false | List |
 | serverTags | List of server tags | list | false | List |
 | protectStatuses | List of protect statuses | list | false | List |
+| protectEnvironmentOrgProperty |  | serverenvironment | false | ServerEnvironment |
 | sort | Sort by | string | false | lastTimeSeen,status,title,application.name,severity |
 ### Response status code
 200 OK - OK
