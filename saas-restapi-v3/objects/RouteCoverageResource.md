@@ -7,6 +7,7 @@ Application Route Coverage Resource
 | ---- | ----------- | ---- | -------------- | -------- |
 | app | NgApplicationResource | ApplicationBaseResource |  | false |
 | critical | Number of critical vulnerabilities in the route | int |  | false |
+| discovered | Datetime when route was discovered | long |  | false |
 | environments | Servers environments | list |  | false |
 | exercised | Last time exercised | long |  | false |
 | observations | List of route coverage observations | list |  | false |
@@ -20,5 +21,5 @@ Application Route Coverage Resource
 | vulnerabilities | Number of vulnerabilities in the route | int |  | false |
 ### Template
 ```
-{"app":{"app_id":"","language":"","name":"","child":true,"links":[],"master":true,"parent_app_id":"","primary":true,"roles":[],"total_modules":0},"critical":0,"environments":[],"exercised":0,"links":[],"observations":[],"route_hash":"","route_hash_string":"","server":[],"servers_total":0,"signature":"","status":"","total_observations":0,"vulnerabilities":0}
+{"app":{"app_id":"","language":"","name":"","child":true,"links":[],"master":true,"parent_app_id":"","primary":true,"roles":[],"total_modules":0},"critical":0,"discovered":0,"environments":[],"exercised":0,"links":[],"observations":[],"route_hash":"","route_hash_string":"","server":[],"servers_total":0,"signature":"","status":"","total_observations":0,"vulnerabilities":0}
 ```
