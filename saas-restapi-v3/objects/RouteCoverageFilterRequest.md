@@ -7,6 +7,8 @@ Route Coverage Filter Request
 | ---- | ----------- | ---- | -------------- | -------- |
 | agentSessionId | Agent session ID which is the value shared with agents to associated elements to a given session | string |  | false |
 | applicationIds | Unique IDs for applications | list |  | false |
+| discoveredEndDate | Discovered End Date | long |  | false |
+| discoveredStartDate | Discovered Start Date | long |  | false |
 | endDate | End Date | long |  | false |
 | excludedHashes | A list of route hashes to exclude from the action | list |  | false |
 | filterText | Filter Text | string |  | false |
@@ -17,5 +19,5 @@ Route Coverage Filter Request
 | startDate | Start Date | long |  | false |
 ### Template
 ```
-{"agentSessionId":"","applicationIds":[],"endDate":0,"excludedHashes":[],"filterText":"","quickFilter":"","serverEnvironments":[],"serverTags":[],"sort":"","startDate":0}
+{"agentSessionId":"","applicationIds":[],"discoveredEndDate":0,"discoveredStartDate":0,"endDate":0,"excludedHashes":[],"filterText":"","quickFilter":"","serverEnvironments":[],"serverTags":[],"sort":"","startDate":0}
 ```
