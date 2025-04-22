@@ -9,5 +9,5 @@ Server Bulk Settings Request
 | settings | The settings to be updated | BulkServerSettings |  | true |
 ### Template
 ```
-{"serverIds":[],"settings":{"assess":{"sampling":{"baseline":0,"frequency":0,"window":0},"stacktraceCaptureMode":""},"environment":"","logLevel":"","protect":{"botProtection":true,"syslog":{"connectionType":"","facilityCode":0,"ipAddress":"","port":0,"protocol":"","severityBlocked":"","severityBlockedPerimeter":"","severityExploited":"","severityProbed":"","severityProbedPerimeter":"","severitySuspicious":""}}}}
+{"serverIds":[],"settings":{"assess":{"sampling":{"baseline":0,"frequency":0,"window":0},"samplingProfile":"","stacktraceCaptureMode":""},"environment":"","logLevel":"","protect":{"botProtection":true,"syslog":{"connectionType":"","facilityCode":0,"ipAddress":"","port":0,"protocol":"","severityBlocked":"","severityBlockedPerimeter":"","severityExploited":"","severityProbed":"","severityProbedPerimeter":"","severitySuspicious":""}}}}
 ```

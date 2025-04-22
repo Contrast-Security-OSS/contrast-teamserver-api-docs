@@ -11,5 +11,5 @@ Bulk Server Settings
 | protect | Protect related settings | ProtectSettings |  | false |
 ### Template
 ```
-{"assess":{"sampling":{"baseline":0,"frequency":0,"window":0},"stacktraceCaptureMode":""},"environment":"","logLevel":"","protect":{"botProtection":true,"syslog":{"connectionType":"","facilityCode":0,"ipAddress":"","port":0,"protocol":"","severityBlocked":"","severityBlockedPerimeter":"","severityExploited":"","severityProbed":"","severityProbedPerimeter":"","severitySuspicious":""}}}
+{"assess":{"sampling":{"baseline":0,"frequency":0,"window":0},"samplingProfile":"","stacktraceCaptureMode":""},"environment":"","logLevel":"","protect":{"botProtection":true,"syslog":{"connectionType":"","facilityCode":0,"ipAddress":"","port":0,"protocol":"","severityBlocked":"","severityBlockedPerimeter":"","severityExploited":"","severityProbed":"","severityProbedPerimeter":"","severitySuspicious":""}}}
 ```

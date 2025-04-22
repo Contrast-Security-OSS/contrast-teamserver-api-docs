@@ -15,6 +15,7 @@ Server Settings Request
 | sampling | Sampling | boolean |  | false |
 | sampling_baseline | Sampling baseline | integer |  | false |
 | sampling_frequency | Sampling frequency | integer |  | false |
+| sampling_profile | Server sampling profile | samplingprofile |  | false |
 | sampling_window | Sampling window | integer |  | false |
 | server_cleanup_policy | Server cleanup policy | ServerCleanupPolicyRequest |  | false |
 | stacktrace_capture_mode | Stacktrace capture mode | string |  | false |
@@ -32,5 +33,5 @@ Server Settings Request
 | syslog_severity_suspicious | Syslog severity suspicious | syslogseverity |  | false |
 ### Template
 ```
-{"assess":true,"bot_protection":true,"defend":true,"environment":"","log_level":"","log_path":"","name":"","sampling":true,"sampling_baseline":0,"sampling_frequency":0,"sampling_window":0,"server_cleanup_policy":{"environment":"","timeframe":0,"unit":""},"stacktrace_capture_mode":"","syslog_connection_type":"","syslog_enabled":true,"syslog_facility_code":0,"syslog_ip_address":"","syslog_port_number":0,"syslog_protocol":"","syslog_severity_blocked":"","syslog_severity_blocked_perimeter":"","syslog_severity_exploited":"","syslog_severity_probed":"","syslog_severity_probed_perimeter":"","syslog_severity_suspicious":""}
+{"assess":true,"bot_protection":true,"defend":true,"environment":"","log_level":"","log_path":"","name":"","sampling":true,"sampling_baseline":0,"sampling_frequency":0,"sampling_profile":"","sampling_window":0,"server_cleanup_policy":{"environment":"","timeframe":0,"unit":""},"stacktrace_capture_mode":"","syslog_connection_type":"","syslog_enabled":true,"syslog_facility_code":0,"syslog_ip_address":"","syslog_port_number":0,"syslog_protocol":"","syslog_severity_blocked":"","syslog_severity_blocked_perimeter":"","syslog_severity_exploited":"","syslog_severity_probed":"","syslog_severity_probed_perimeter":"","syslog_severity_suspicious":""}
 ```
