@@ -1,18 +1,18 @@
 ## RaspAttackersResponse
 ---
 ### Description
-RASP Attackers Response
+RASP Event Response
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| attackers | List of top attackers | list |  | false |
 | errors | List of errors | list |  | false |
+| items | List of top events | list |  | false |
 | messages | List of messages | list |  | false |
-| remaining_attackers | Remaining Attackers | list |  | false |
-| remaining_breakdown | Remaining attackers breakdown | AttackMonitorTopAttackerResource |  | false |
+| remaining_breakdown | List of targeted applications | AttackMonitorTopEventResource |  | false |
+| remaining_events | Remaining Events | list |  | false |
 | success | Indicates whether API response was successful or not | boolean |  | false |
-| total | Total number of attack events | long |  | false |
+| total | Total Events | long |  | false |
 ### Template
 ```
-{"attackers":[],"errors":[],"messages":[],"remaining_attackers":[],"remaining_breakdown":{"attack_status":"","attack_types":[],"attack_uuids":[],"attacker":"","attackersItems":[],"blocked_attacks":0,"exploited_attacks":0,"probed_attacks":0,"source_ips":[],"source_name":"","suspicious_attacks":0,"total_attacks":0,"unknown":true},"success":true,"total":0}
+{"errors":[],"items":[],"messages":[],"remaining_breakdown":{"blocked_attacks":0,"event":"","exploited_attacks":0,"probed_attacks":0,"rule_uuid":"","suspicious_attacks":0,"total_attacks":0},"remaining_events":[],"success":true,"total":0}
 ```
