@@ -5,6 +5,7 @@
 | ---- | ----------- | ---- | -------------- | -------- |
 | headers | List of HTTP headers | list |  | false |
 | method | Method | string |  | false |
+| normalizedUri | Normalized URI | string |  | false |
 | parameters | List of request parameters | list |  | false |
 | port | Port | int |  | false |
 | protocol | Protocol | string |  | false |
@@ -13,5 +14,5 @@
 | version | Version | string |  | false |
 ### Template
 ```
-{"headers":[],"links":[],"method":"","parameters":[],"port":0,"protocol":"","query-string":"","uri":"","version":""}
+{"headers":[],"links":[],"method":"","normalizedUri":"","parameters":[],"port":0,"protocol":"","query-string":"","uri":"","version":""}
 ```

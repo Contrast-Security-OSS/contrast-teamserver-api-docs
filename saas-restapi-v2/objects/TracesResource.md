@@ -26,5 +26,5 @@
 | uuid | Trace UUID | string |  | false |
 ### Template
 ```
-{"closed-time":{},"confidence":"","events":[],"evidence":"","first-time-seen":{},"impact":"","language":"","last-time-seen":{},"likelihood":"","links":[],"reported-to-bug-tracker":true,"reported-to-bug-tracker-time":{},"request":{"headers":[],"links":[],"method":"","parameters":[],"port":0,"protocol":"","query-string":"","uri":"","version":""},"rule-name":"","severity":"","status":"","sub-status":"","sub-title":"","title":"","total-traces-received":0,"trace-id":0,"uuid":""}
+{"closed-time":{},"confidence":"","events":[],"evidence":"","first-time-seen":{},"impact":"","language":"","last-time-seen":{},"likelihood":"","links":[],"reported-to-bug-tracker":true,"reported-to-bug-tracker-time":{},"request":{"headers":[],"links":[],"method":"","normalizedUri":"","parameters":[],"port":0,"protocol":"","query-string":"","uri":"","version":""},"rule-name":"","severity":"","status":"","sub-status":"","sub-title":"","title":"","total-traces-received":0,"trace-id":0,"uuid":""}
 ```
