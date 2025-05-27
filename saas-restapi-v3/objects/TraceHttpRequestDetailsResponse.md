@@ -10,5 +10,5 @@ Trace HTTP request Details Response
 | success | Indicates whether API response was successful or not | boolean |  | false |
 ### Template
 ```
-{"http_request":{"body":"","headers":[],"links":[],"method":"","parameters":[],"port":0,"protocol":"","queryString":"","uri":"","url":"","version":""},"messages":[],"success":true}
+{"http_request":{"body":"","headers":[],"links":[],"method":"","normalizedUri":"","parameters":[],"port":0,"protocol":"","queryString":"","uri":"","url":"","version":""},"messages":[],"success":true}
 ```

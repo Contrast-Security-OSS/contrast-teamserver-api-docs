@@ -5,6 +5,7 @@ VSTS Bugtracker Fields Request
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
+| add_prefix_to_issue_title | If enabled, it adds the application name as a prefix to the vulnerability issue title | boolean |  | false |
 | all_applications | All applications selected | boolean |  | false |
 | app_criterion | Application importance or applications selected | boolean |  | false |
 | applications | List of application Ids | list |  | false |
@@ -37,5 +38,5 @@ VSTS Bugtracker Fields Request
 | version | Bugtracker version | vstsversion |  | true |
 ### Template
 ```
-{"all_applications":true,"app_criterion":true,"applications":[],"area":"","assignee":"","auto_create_tickets_all_rules":true,"auto_create_tickets_enabled":true,"auto_create_tickets_severities":[],"auto_create_tickets_rules":[],"bugtracker_id":0,"credentials":{"credentials_update":true,"host":"","name":"","password":"","username":""},"credentials_id":"","exclude_sensitive_info":true,"host":"","importance":[],"integrations":[],"issue_type":"","name":"","password":"","priority_critical":"","priority_field_available":true,"priority_high":"","priority_low":"","priority_medium":"","priority_note":"","project":"","send_tags":true,"team":"","username":"","version":""}
+{"add_prefix_to_issue_title":true,"all_applications":true,"app_criterion":true,"applications":[],"area":"","assignee":"","auto_create_tickets_all_rules":true,"auto_create_tickets_enabled":true,"auto_create_tickets_severities":[],"auto_create_tickets_rules":[],"bugtracker_id":0,"credentials":{"credentials_update":true,"host":"","name":"","password":"","username":""},"credentials_id":"","exclude_sensitive_info":true,"host":"","importance":[],"integrations":[],"issue_type":"","name":"","password":"","priority_critical":"","priority_field_available":true,"priority_high":"","priority_low":"","priority_medium":"","priority_note":"","project":"","send_tags":true,"team":"","username":"","version":""}
 ```
