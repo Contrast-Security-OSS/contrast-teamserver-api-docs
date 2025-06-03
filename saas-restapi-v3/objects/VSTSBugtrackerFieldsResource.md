@@ -19,6 +19,7 @@ VSTS Bugtracker Fields Resource
 | bugtracker_id | Bugtracker ID | long |  | false |
 | credentials | Credentials set | BugtrackerCredentialsResource |  | false |
 | exclude_sensitive_info | Exclude bug tracker sensitive info | boolean |  | false |
+| fields | List of customized fields | set |  | false |
 | host | Host | string |  | false |
 | importance | app importance | list |  | false |
 | issue_type | Default issue type | string |  | false |
@@ -36,5 +37,5 @@ VSTS Bugtracker Fields Resource
 | version | Version | string |  | false |
 ### Template
 ```
-{"add_prefix_to_issue_title":true,"all_applications":true,"app_criterion":true,"application_criterion":"","applications":[],"area":"","assignee":"","auto_create_tickets_all_rules":true,"auto_create_tickets_enabled":true,"auto_create_tickets_severities":[],"auto_create_tickets_rules":[],"bugtracker_id":0,"credentials":{},"exclude_sensitive_info":true,"host":"","importance":[],"issue_type":"","links":[],"name":"","priority_critical":"","priority_field_available":true,"priority_high":"","priority_low":"","priority_medium":"","priority_note":"","project":"","send_tags":true,"team":"","username":"","version":""}
+{"add_prefix_to_issue_title":true,"all_applications":true,"app_criterion":true,"application_criterion":"","applications":[],"area":"","assignee":"","auto_create_tickets_all_rules":true,"auto_create_tickets_enabled":true,"auto_create_tickets_severities":[],"auto_create_tickets_rules":[],"bugtracker_id":0,"credentials":{},"exclude_sensitive_info":true,"fields":[],"host":"","importance":[],"issue_type":"","links":[],"name":"","priority_critical":"","priority_field_available":true,"priority_high":"","priority_low":"","priority_medium":"","priority_note":"","project":"","send_tags":true,"team":"","username":"","version":""}
 ```

@@ -1,7 +1,7 @@
-## JiraFieldsResource
+## NgBugtrackerAppFieldsResource
 ---
 ### Description
-Jira Fields Resource
+Bugtracker app field resource
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
