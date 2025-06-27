@@ -27,6 +27,7 @@ Organization AutoLicense Resource
 | is_superadmin | Is a Superadmon Organization | boolean |  | false |
 | locale | Organization locale | string |  | false |
 | name | Organization name | string |  | false |
+| northstar_setting | Northstar setting | northstarorgsettingstatus |  | false |
 | organization_uuid | Organization ID | string |  | false |
 | ossFeature | OSS Feature enabled | boolean |  | false |
 | ossInventoryModeFeature | OSS inventory mode feature enabled | boolean |  | false |
@@ -50,5 +51,5 @@ Organization AutoLicense Resource
 | vulnerability_trends_graph_enabled | Is vulnerability trends graph enabled | boolean |  | false |
 ### Template
 ```
-{"api_only":true,"app_library_status_enabled":true,"apps_onboarded":0,"assessment_license":true,"auto_license_assessment":true,"auto_license_protection":true,"beta_languages_enabled":true,"cloudnative_enabled":true,"creation_time":{},"cvss_scoring_type":"","date_format":"","disa_stig_enabled":true,"environments":[],"freeTrail":true,"freeTrialState":{},"freemium":true,"account_id":"","guest":true,"harmony_enabled":true,"is_superadmin":true,"links":[],"locale":"","name":"","organization_uuid":"","ossFeature":true,"ossInventoryModeFeature":true,"ossLicense":true,"properties":{},"protect":true,"protection_enabled":true,"protection_license":true,"rbacEnforceAssess":true,"sample_application_id":"","sample_server_id":0,"sast_enabled":true,"security_standard_report_enabled":true,"server_environments":[],"telemetry_enabled":true,"time_format":"","timezone":"","user_access":true,"vulnerability_auto_verification_enabled":true,"vulnerability_duplicate_notification_enabled":true,"vulnerability_trends_graph_enabled":true}
+{"api_only":true,"app_library_status_enabled":true,"apps_onboarded":0,"assessment_license":true,"auto_license_assessment":true,"auto_license_protection":true,"beta_languages_enabled":true,"cloudnative_enabled":true,"creation_time":{},"cvss_scoring_type":"","date_format":"","disa_stig_enabled":true,"environments":[],"freeTrail":true,"freeTrialState":{},"freemium":true,"account_id":"","guest":true,"harmony_enabled":true,"is_superadmin":true,"links":[],"locale":"","name":"","northstar_setting":"","organization_uuid":"","ossFeature":true,"ossInventoryModeFeature":true,"ossLicense":true,"properties":{},"protect":true,"protection_enabled":true,"protection_license":true,"rbacEnforceAssess":true,"sample_application_id":"","sample_server_id":0,"sast_enabled":true,"security_standard_report_enabled":true,"server_environments":[],"telemetry_enabled":true,"time_format":"","timezone":"","user_access":true,"vulnerability_auto_verification_enabled":true,"vulnerability_duplicate_notification_enabled":true,"vulnerability_trends_graph_enabled":true}
 ```

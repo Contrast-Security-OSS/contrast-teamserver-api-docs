@@ -1,15 +1,14 @@
-## AuditLogResponseItem
+## ReportAsyncExportResponse
 ---
 ### Description
-Audit Log Response
+Response for asynchronous report export requests
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| logs | List of logs | list |  | false |
 | messages | List of messages | list |  | false |
 | success | Indicates whether API response was successful or not | boolean |  | false |
-| total | Total number of logs | int |  | false |
+| uuid | Async report UUID | string |  | false |
 ### Template
 ```
-{"logs":[],"messages":[],"success":true,"total":0}
+{"messages":[],"success":true,"uuid":""}
 ```
