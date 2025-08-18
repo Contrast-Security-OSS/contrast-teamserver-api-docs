@@ -13,11 +13,12 @@ Route Coverage Filter Request
 | excludedHashes | A list of route hashes to exclude from the action | list |  | false |
 | filterText | Filter Text | string |  | false |
 | quickFilter | Route Coverage Quick Filter Type | routecoveragequickfiltertype |  | false |
+| routeTypes | Route entry point type | list |  | false |
 | serverEnvironments | List of server environments | list |  | false |
 | serverTags | List of server tags | list |  | false |
 | sort | Sort by | string |  | false |
 | startDate | Start Date | long |  | false |
 ### Template
 ```
-{"agentSessionId":"","applicationIds":[],"discoveredEndDate":0,"discoveredStartDate":0,"endDate":0,"excludedHashes":[],"filterText":"","quickFilter":"","serverEnvironments":[],"serverTags":[],"sort":"","startDate":0}
+{"agentSessionId":"","applicationIds":[],"discoveredEndDate":0,"discoveredStartDate":0,"endDate":0,"excludedHashes":[],"filterText":"","quickFilter":"","routeTypes":[],"serverEnvironments":[],"serverTags":[],"sort":"","startDate":0}
 ```

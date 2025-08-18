@@ -5,8 +5,9 @@ Teamserver Preference Request
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| enabled | Is Enabled | boolean |  | true |
+| property | Property | string |  | true |
+| value | Value | string |  | true |
 ### Template
 ```
-{"enabled":true}
+{"property":"","value":""}
 ```

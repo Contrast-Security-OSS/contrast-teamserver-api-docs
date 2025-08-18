@@ -10,9 +10,10 @@ Trace Server Resource
 | first_time_seen | Time first seen | long |  | false |
 | last_time_seen | Time last seen | long |  | false |
 | name | Name | string |  | false |
+| server_environment | Server Environment | string |  | false |
 | server_id | Server ID | long |  | false |
 | total_traces_received | Total received traces | long |  | false |
 ### Template
 ```
-{"agent_version":"","enabled":true,"first_time_seen":0,"last_time_seen":0,"links":[],"name":"","server_id":0,"total_traces_received":0}
+{"agent_version":"","enabled":true,"first_time_seen":0,"last_time_seen":0,"links":[],"name":"","server_environment":"","server_id":0,"total_traces_received":0}
 ```

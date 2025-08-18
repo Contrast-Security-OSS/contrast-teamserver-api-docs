@@ -7,6 +7,7 @@ Application Route Coverage Response
 | ---- | ----------- | ---- | -------------- | -------- |
 | count | Total number of routes coverage | integer |  | false |
 | discoveredCount | Total number of discovered routes | integer |  | false |
+| entrypoint_type_counts | Counts of entrypoint types for the routes coverage | list |  | false |
 | errors | List of errors | list |  | false |
 | exercisedCount | Total number of exercised routes | integer |  | false |
 | exercised_count_except_session_metadata_filter | Total number of exercised routes coverage except session metadata filter | integer |  | false |
@@ -17,5 +18,5 @@ Application Route Coverage Response
 | total_count_except_session_metadata_filter | Total number of routes coverage except session metadata filter | integer |  | false |
 ### Template
 ```
-{"count":0,"discoveredCount":0,"errors":[],"exercisedCount":0,"global_count":0,"messages":[],"routes":[],"success":true,"total_count_except_session_metadata_filter":0,"exercised_count_except_session_metadata_filter":0}
+{"count":0,"discoveredCount":0,"entrypoint_type_counts":[],"errors":[],"exercisedCount":0,"global_count":0,"messages":[],"routes":[],"success":true,"total_count_except_session_metadata_filter":0,"exercised_count_except_session_metadata_filter":0}
 ```
