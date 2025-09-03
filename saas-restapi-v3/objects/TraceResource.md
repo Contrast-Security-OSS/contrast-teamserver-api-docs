@@ -23,7 +23,7 @@ Trace Resource
 | hasParentApp | Has Parent App | boolean |  | false |
 | impact | Impact | string |  | false |
 | impact_label | Translated Impact Value | string |  | false |
-| instance_uuid | Vulnerability intance uuid | string |  | false |
+| instance_uuid | Vulnerability instance uuid | string |  | false |
 | language | Language | string |  | false |
 | last_time_seen | Vulnerability time last seen | long |  | false |
 | last_vuln_time_seen | Instance last received time | long |  | false |

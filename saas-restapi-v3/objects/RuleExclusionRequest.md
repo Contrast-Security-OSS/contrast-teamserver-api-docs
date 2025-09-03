@@ -1,12 +1,14 @@
 ## RuleExclusionRequest
 ---
 ### Description
-Rule Exclusion Request: Code Type
+Rule Exclusion Request: Input Type
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| codes | Codes | array |  | false |
+| input_name | Name | string |  | false |
+| input_type | Exception Type | exclusioninputtype |  | false |
+| urls | URLs | array |  | false |
 ### Template
 ```
-{"assess_rules_info":{},"codes":[],"event_uuid":"","name":"","protect_rules_info":{}}
+{"assess_rules_info":{},"event_uuid":"","input_name":"","input_type":"","name":"","protect_rules_info":{},"urls":[]}
 ```
