@@ -7,8 +7,8 @@ Route coverage filter request
 | ---- | ----------- | ---- | -------------- | -------- |
 | applicationIds | Applications ids | list |  | false |
 | excludedHashes | A list of route hashes to exclude from the action | list |  | false |
-| routeTypes | Route types to filter by | list |  | false |
 | startDate | Start date | long |  | false |
+| routeTypes | Route types to filter by | list |  | false |
 | endDate | End date | long |  | false |
 | agentSessionId | Agent session ID which is the value shared with agents to associated elements to a given session | string |  | false |
 | quickFilter | Route coverage quick filter type | quickfilterenum |  | false |
