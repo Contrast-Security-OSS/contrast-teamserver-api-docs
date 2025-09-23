@@ -3,7 +3,9 @@
 #### Version v3
 ## APIs
 - UNGROUPED
+  - [IpDenylistRestController](<./ungrouped/IpDenylistRestController/README.md>)
   - [NgApplicationsOpenApiRestController](<./ungrouped/NgApplicationsOpenApiRestController/README.md>)
+  - [ProtectionRulesRestController](<./ungrouped/ProtectionRulesRestController/README.md>)
   - [RBAC](<./ungrouped/RBAC/README.md>)
   - [SuperAdminScimUsersRestController](<./ungrouped/SuperAdminScimUsersRestController/README.md>)
 - AGENT
@@ -76,9 +78,9 @@
   - [Profile](<./profile/Profile/README.md>)
 - RASP
   - [History Attacks](<./rasp/History Attacks/README.md>)
+  - [Licenses](<./rasp/Licenses/README.md>)
   - [Rasp Event Filters](<./rasp/Rasp Event Filters/README.md>)
   - [Users](<./rasp/Users/README.md>)
-  - [Licenses](<./rasp/Licenses/README.md>)
 - REPORTING
   - [Report Download](<./reporting/Report Download/README.md>)
   - [Report tracking detail](<./reporting/Report tracking detail/README.md>)
@@ -140,6 +142,7 @@
   - [ApplicationSessionResponse](<./objects/ApplicationSessionResponse.md>)
   - [ApplicationsInfoResponse](<./objects/ApplicationsInfoResponse.md>)
   - [ApplicationsNamesAndLanguagesResponse](<./objects/ApplicationsNamesAndLanguagesResponse.md>)
+  - [ApplicationsResponse](<./objects/ApplicationsResponse.md>)
   - [BaseApiFormResponse](<./objects/BaseApiFormResponse.md>)
   - [Facet](<./objects/Facet.md>)
   - [FacetValue](<./objects/FacetValue.md>)
@@ -159,7 +162,6 @@
   - [RouteCoverageAsyncExportResponse](<./objects/RouteCoverageAsyncExportResponse.md>)
   - [RouteCoverageBaseApiResponse](<./objects/RouteCoverageBaseApiResponse.md>)
   - [RouteCoverageFilterItem](<./objects/RouteCoverageFilterItem.md>)
-  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageServersResponse](<./objects/RouteCoverageServersResponse.md>)
   - [RuleConfigurationRequest](<./objects/RuleConfigurationRequest.md>)
   - [SarifAsyncExportResponse](<./objects/SarifAsyncExportResponse.md>)
@@ -189,6 +191,7 @@
   - [AgentVersionsResponse](<./objects/AgentVersionsResponse.md>)
 - APPLICATION COVERAGE REQUEST
   - [RouteCoverageBySessionIDAndMetadataRequest](<./objects/RouteCoverageBySessionIDAndMetadataRequest.md>)
+  - [RouteCoverageFilterRequest](<./objects/RouteCoverageFilterRequest.md>)
   - [RouteCoverageMetadataLabelValues](<./objects/RouteCoverageMetadataLabelValues.md>)
 - APPLICATION COVERAGE RESOURCE
   - [RouteCoverageMetricsResource](<./objects/RouteCoverageMetricsResource.md>)
@@ -255,7 +258,6 @@
   - [ApplicationsFilterResponse](<./objects/ApplicationsFilterResponse.md>)
   - [ApplicationsIdentityResponse](<./objects/ApplicationsIdentityResponse.md>)
   - [ApplicationsNameResponse](<./objects/ApplicationsNameResponse.md>)
-  - [ApplicationsResponse](<./objects/ApplicationsResponse.md>)
   - [ApplicationsStigTemplateDetailsResponse](<./objects/ApplicationsStigTemplateDetailsResponse.md>)
   - [PivotalResponse](<./objects/PivotalResponse.md>)
   - [SuperadminApplicationFilterCatalogDetailsResponse](<./objects/SuperadminApplicationFilterCatalogDetailsResponse.md>)
@@ -450,6 +452,7 @@
   - [NotificationUserTriggerRequest](<./objects/NotificationUserTriggerRequest.md>)
 - NOTIFICATION RESOURCE
   - [AlertConditionResource](<./objects/AlertConditionResource.md>)
+  - [AlertResource](<./objects/AlertResource.md>)
   - [NotificationOrganizationSettingsResource](<./objects/NotificationOrganizationSettingsResource.md>)
   - [NotificationOrganizationTriggerChannelResource](<./objects/NotificationOrganizationTriggerChannelResource.md>)
   - [NotificationOrganizationTriggerResource](<./objects/NotificationOrganizationTriggerResource.md>)
@@ -547,7 +550,6 @@
   - [AlertAttackTriggerIntervalResource](<./objects/AlertAttackTriggerIntervalResource.md>)
   - [AlertAttackTriggerResource](<./objects/AlertAttackTriggerResource.md>)
   - [AlertAttackTriggerStatusResource](<./objects/AlertAttackTriggerStatusResource.md>)
-  - [AlertResource](<./objects/AlertResource.md>)
   - [ApplicationAttackResource](<./objects/ApplicationAttackResource.md>)
   - [AssessmentLicenseBreakdownResource](<./objects/AssessmentLicenseBreakdownResource.md>)
   - [AttackApplicationResource](<./objects/AttackApplicationResource.md>)
@@ -707,9 +709,8 @@
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
-- SECURITY RESOURCE
-  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
 - SECURITY RESPONSE
+  - [AuditLogResponseItem](<./objects/AuditLogResponseItem.md>)
   - [IPRangeResponse](<./objects/IPRangeResponse.md>)
 - SERVER REQUEST
   - [AssessSettings](<./objects/AssessSettings.md>)
