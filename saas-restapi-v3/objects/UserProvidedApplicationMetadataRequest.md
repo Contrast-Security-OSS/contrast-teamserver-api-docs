@@ -6,7 +6,7 @@ User-Provided Application Metadata Request
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
 | key | The unique metadata key | string |  | true |
-| value | The user-provided value | string |  | true |
+| value | The user-provided value | string |  | false |
 ### Template
 ```
 {"key":"","value":""}
