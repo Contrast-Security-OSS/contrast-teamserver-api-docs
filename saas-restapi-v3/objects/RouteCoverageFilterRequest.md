@@ -5,8 +5,8 @@ Route coverage filter request
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| excludedHashes | A list of route hashes to exclude from the action | list |  | false |
 | applicationIds | Applications ids | list |  | false |
+| excludedHashes | A list of route hashes to exclude from the action | list |  | false |
 | startDate | Start date | long |  | false |
 | routeTypes | Route types to filter by | list |  | false |
 | endDate | End date | long |  | false |
