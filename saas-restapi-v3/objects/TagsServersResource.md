@@ -1,13 +1,13 @@
 ## TagsServersResource
 ---
 ### Description
-Tags Servers Libraries Resource
+Tags Servers Resource
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| applications_id | List of application IDs | list |  | true |
+| servers_id | List of servers ID | list |  | true |
 | tags | List of tags | list |  | true |
 ### Template
 ```
-{"applications_id":[],"links":[],"tags":[]}
+{"links":[],"servers_id":[],"tags":[]}
 ```

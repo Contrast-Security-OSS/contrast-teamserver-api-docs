@@ -10,5 +10,5 @@ Security Control Suggestion Response
 | suggestion | Security controls suggestions | SecurityControlSuggestionResource |  | false |
 ### Template
 ```
-{"messages":[],"success":true,"suggestion":{"api":"","apps":[],"language":"","links":[],"module":"","name":"","pattern":"","suggestion_id":0,"type":"","user_exists":true,"username":""}}
+{"messages":[],"success":true,"suggestion":{"api":"","applications":[],"apps":[],"language":"","links":[],"module":"","name":"","pattern":"","suggestion_id":0,"total_apps":0,"type":"","user_exists":true,"username":""}}
 ```
