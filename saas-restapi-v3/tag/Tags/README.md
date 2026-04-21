@@ -34,6 +34,7 @@ Tag methods
 - [ /ng/{orgUuid}/tags/servers/bulk (PUT) ]( ./329ba5280c6da23e17772f04ddfd2382.md)
 - [ /ng/{orgUuid}/tags/servers/list (GET) ]( ./c200fa6d379bb57681d450ecf029077d.md)
 - [ /ng/{orgUuid}/tags/servers/list/application/{appId} (GET) ]( ./112b6c3ff63ac482e7e0588a5ca959b1.md)
+- [ /ng/{orgUuid}/tags/servers/list/applications (POST) ]( ./86d286a91014657114b3875b56562c8c.md)
 - [ /ng/{orgUuid}/tags/trace/{traceUuid} (DELETE) ]( ./4ab13f6d380ab4bdce9ed22fcd0bacac.md)
 - [ /ng/{orgUuid}/tags/traces (GET) ]( ./0b95c3ab76f7c1bbde7d070f6e56bda6.md)
 - [ /ng/{orgUuid}/tags/traces (PUT) ]( ./8be2c77c3e82565dbafa6386e236eb7d.md)

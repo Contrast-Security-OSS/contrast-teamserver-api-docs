@@ -1,13 +1,13 @@
 ## ApplicationInfoResource
 ---
 ### Description
-Object that contains the application display name and id
+Application Info Resource
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| appId | Application id | string |  | false |
-| name | Application display name | string |  | false |
+| app_id | Application ID | string |  | false |
+| name | Application name | string |  | false |
 ### Template
 ```
-{"appId":"","name":""}
+{"app_id":"","name":""}
 ```
