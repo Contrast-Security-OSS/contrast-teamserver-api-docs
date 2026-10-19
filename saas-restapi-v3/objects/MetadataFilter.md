@@ -5,8 +5,8 @@ Metadata filter
 ### Fields
 | Name | Description | Type | Allowed Values | Required |
 | ---- | ----------- | ---- | -------------- | -------- |
-| fieldID | Metadata Field ID | long |  | false |
-| values | Values to filter on | array |  | false |
+| values | Values to filter on | list |  | true |
+| fieldID | Metadata Field ID | long |  | true |
 ### Template
 ```
 {"fieldID":0,"values":[]}
