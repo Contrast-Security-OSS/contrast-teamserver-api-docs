@@ -4,5 +4,5 @@
 Metadata representation
 ### Template
 ```
-{"entityID":"","fieldName":"","fieldValue":"","isOverriddenByUser":true,"links":[],"subfields":[],"type":"","unique":true}
+{"agentLabel":"","entityID":"","fieldName":"","fieldValue":"","isOverriddenByUser":true,"links":[],"subfields":[],"type":"","unique":true}
 ```

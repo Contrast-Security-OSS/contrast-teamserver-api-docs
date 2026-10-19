@@ -2,17 +2,11 @@
 #### Base Path (/Contrast/api)
 #### Version v3
 ## APIs
-- UNGROUPED
-  - [IpDenylistRestController](<./ungrouped/IpDenylistRestController/README.md>)
-  - [NgApplicationsOpenApiRestController](<./ungrouped/NgApplicationsOpenApiRestController/README.md>)
-  - [ProtectionRulesRestController](<./ungrouped/ProtectionRulesRestController/README.md>)
-  - [RBAC](<./ungrouped/RBAC/README.md>)
-  - [SuperAdminScimUsersRestController](<./ungrouped/SuperAdminScimUsersRestController/README.md>)
-  - [VulnerabilityDetailsRestController](<./ungrouped/VulnerabilityDetailsRestController/README.md>)
 - AGENT
   - [Agent](<./agent/Agent/README.md>)
   - [Agent session](<./agent/Agent session/README.md>)
 - APPLICATION
+  - [Application Activity](<./application/Application Activity/README.md>)
   - [Application Assess Rule Environment Configs](<./application/Application Assess Rule Environment Configs/README.md>)
   - [Application Components](<./application/Application Components/README.md>)
   - [Application Coverage](<./application/Application Coverage/README.md>)
@@ -26,34 +20,25 @@
   - [Application Vulnerability Filtering](<./application/Application Vulnerability Filtering/README.md>)
   - [Applications](<./application/Applications/README.md>)
   - [Assess Rule Configuration](<./application/Assess Rule Configuration/README.md>)
-  - [Application Activity](<./application/Application Activity/README.md>)
 - APPLICATION SECURITY SUMMARY
   - [Application security summary](<./application security summary/Application security summary/README.md>)
-- AUTHENTICATION
-- BUGTRACKERS
 - COVERAGE
   - [Route coverage](<./coverage/Route coverage/README.md>)
   - [Route coverage open api](<./coverage/Route coverage open api/README.md>)
-- DIAGNOSTICS
 - EAC
   - [Access Groups](<./eac/Access Groups/README.md>)
 - ENGINE
   - [Engine](<./engine/Engine/README.md>)
 - EVENT
   - [Events](<./event/Events/README.md>)
-- FREEMIUM
-- GLOBAL
 - HISTORY
   - [History](<./history/History/README.md>)
-- INTEGRATIONS
-- JOB OUTCOME POLICY
 - LANGUAGE
   - [Languages configuration](<./language/Languages configuration/README.md>)
 - LIBRARY
   - [Libraries](<./library/Libraries/README.md>)
   - [Libraries Filters](<./library/Libraries Filters/README.md>)
   - [Library Policy](<./library/Library Policy/README.md>)
-- LICENSE
 - METADATA
   - [Agent Session Open Api](<./metadata/Agent Session Open Api/README.md>)
   - [Application Metadata](<./metadata/Application Metadata/README.md>)
@@ -72,15 +57,14 @@
   - [Organization admin approval workflow for vulnerability status](<./organization/Organization admin approval workflow for vulnerability status/README.md>)
   - [Organization feature](<./organization/Organization feature/README.md>)
   - [Organization time to remediate properties](<./organization/Organization time to remediate properties/README.md>)
-  - [Organizations](<./organization/Organizations/README.md>)
   - [Search](<./organization/Search/README.md>)
-- PIVOTAL
+  - [Organizations](<./organization/Organizations/README.md>)
 - PROFILE
   - [Profile](<./profile/Profile/README.md>)
 - RASP
   - [History Attacks](<./rasp/History Attacks/README.md>)
-  - [Rasp Event Filters](<./rasp/Rasp Event Filters/README.md>)
   - [Licenses](<./rasp/Licenses/README.md>)
+  - [Rasp Event Filters](<./rasp/Rasp Event Filters/README.md>)
   - [Users](<./rasp/Users/README.md>)
 - REPORTING
   - [Report Download](<./reporting/Report Download/README.md>)
@@ -95,7 +79,6 @@
   - [SAML](<./saml/SAML/README.md>)
 - SCORES
   - [Scores](<./scores/Scores/README.md>)
-- SECURITY
 - SECURITY CHECK
   - [Security Check](<./security check/Security Check/README.md>)
 - SERVER
@@ -107,7 +90,6 @@
   - [CVE](<./software component analysis/CVE/README.md>)
 - TAG
   - [Tags](<./tag/Tags/README.md>)
-- TEAMSERVER
 - TRACE
   - [Agent session delta api](<./trace/Agent session delta api/README.md>)
   - [Application Trace Filters](<./trace/Application Trace Filters/README.md>)
@@ -115,10 +97,10 @@
   - [Organization Vulnerabilities Filters](<./trace/Organization Vulnerabilities Filters/README.md>)
   - [Organization Vulnerability Bulk Share](<./trace/Organization Vulnerability Bulk Share/README.md>)
   - [Organization Vulnerability Stats](<./trace/Organization Vulnerability Stats/README.md>)
+  - [Security Controls](<./trace/Security Controls/README.md>)
   - [Trace Filters](<./trace/Trace Filters/README.md>)
   - [Trace Summary](<./trace/Trace Summary/README.md>)
   - [Vulnerability Notes](<./trace/Vulnerability Notes/README.md>)
-  - [Security Controls](<./trace/Security Controls/README.md>)
 - USER
   - [Report Preferences](<./user/Report Preferences/README.md>)
   - [Users](<./user/Users/README.md>)
@@ -136,7 +118,6 @@
   - [ApplicationAgentSessionMetadataRequest](<./objects/ApplicationAgentSessionMetadataRequest.md>)
   - [ApplicationCustomAgentSessionsTotalResponse](<./objects/ApplicationCustomAgentSessionsTotalResponse.md>)
   - [ApplicationIdsRequest](<./objects/ApplicationIdsRequest.md>)
-  - [ApplicationInfoResource](<./objects/ApplicationInfoResource.md>)
   - [ApplicationLatestAgentSessionResponse](<./objects/ApplicationLatestAgentSessionResponse.md>)
   - [ApplicationNameAndLanguage](<./objects/ApplicationNameAndLanguage.md>)
   - [ApplicationResponse](<./objects/ApplicationResponse.md>)
@@ -145,7 +126,6 @@
   - [ApplicationsNamesAndLanguagesResponse](<./objects/ApplicationsNamesAndLanguagesResponse.md>)
   - [ApplicationsResponse](<./objects/ApplicationsResponse.md>)
   - [BaseApiFormResponse](<./objects/BaseApiFormResponse.md>)
-  - [BaseApiResponse](<./objects/BaseApiResponse.md>)
   - [Facet](<./objects/Facet.md>)
   - [FacetValue](<./objects/FacetValue.md>)
   - [FacetsResult](<./objects/FacetsResult.md>)
@@ -155,6 +135,7 @@
   - [IpDenylistDetailsRequest](<./objects/IpDenylistDetailsRequest.md>)
   - [IpDenylistDetailsResponse](<./objects/IpDenylistDetailsResponse.md>)
   - [MetadataFieldResource](<./objects/MetadataFieldResource.md>)
+  - [MetadataFilter](<./objects/MetadataFilter.md>)
   - [NgQuickFilterResponse](<./objects/NgQuickFilterResponse.md>)
   - [RatingFacet](<./objects/RatingFacet.md>)
   - [RatingResult](<./objects/RatingResult.md>)
@@ -223,6 +204,7 @@
   - [ApplicationBaseResource](<./objects/ApplicationBaseResource.md>)
   - [ApplicationFilterItem](<./objects/ApplicationFilterItem.md>)
   - [ApplicationIdentityResource](<./objects/ApplicationIdentityResource.md>)
+  - [ApplicationInfoResource](<./objects/ApplicationInfoResource.md>)
   - [ApplicationLicenseResource](<./objects/ApplicationLicenseResource.md>)
   - [ApplicationModuleResource](<./objects/ApplicationModuleResource.md>)
   - [ApplicationNameResource](<./objects/ApplicationNameResource.md>)
@@ -322,7 +304,6 @@
   - [VSTSProjectsResponse](<./objects/VSTSProjectsResponse.md>)
   - [VSTSWorkItemTypeResource](<./objects/VSTSWorkItemTypeResource.md>)
   - [WebhookUrlResponse](<./objects/WebhookUrlResponse.md>)
-- DIAGNOSTICS
 - EAC REQUEST
   - [AccessControlAccountExceptionItem](<./objects/AccessControlAccountExceptionItem.md>)
   - [AccessControlGroupRequest](<./objects/AccessControlGroupRequest.md>)
@@ -369,6 +350,7 @@
   - [AuthSettingsResponse](<./objects/AuthSettingsResponse.md>)
   - [BackgroundJobResponse](<./objects/BackgroundJobResponse.md>)
   - [BaseApiCountResponse](<./objects/BaseApiCountResponse.md>)
+  - [BaseApiResponse](<./objects/BaseApiResponse.md>)
   - [BulkBackgroundJobResponse](<./objects/BulkBackgroundJobResponse.md>)
   - [CategoryRulesResponse](<./objects/CategoryRulesResponse.md>)
   - [DateFormatsResponse](<./objects/DateFormatsResponse.md>)
@@ -425,7 +407,6 @@
 - METADATA RESOURCE
   - [MetadataDTO](<./objects/MetadataDTO.md>)
   - [MetadataFieldBreakdownDTO](<./objects/MetadataFieldBreakdownDTO.md>)
-  - [MetadataFilter](<./objects/MetadataFilter.md>)
   - [MetadataFilterGroup](<./objects/MetadataFilterGroup.md>)
   - [MetadataFilterSubfieldValue](<./objects/MetadataFilterSubfieldValue.md>)
   - [MetadataFilterValue](<./objects/MetadataFilterValue.md>)
@@ -454,6 +435,7 @@
   - [NotificationUserTriggerRequest](<./objects/NotificationUserTriggerRequest.md>)
 - NOTIFICATION RESOURCE
   - [AlertConditionResource](<./objects/AlertConditionResource.md>)
+  - [AlertResource](<./objects/AlertResource.md>)
   - [NotificationOrganizationSettingsResource](<./objects/NotificationOrganizationSettingsResource.md>)
   - [NotificationOrganizationTriggerChannelResource](<./objects/NotificationOrganizationTriggerChannelResource.md>)
   - [NotificationOrganizationTriggerResource](<./objects/NotificationOrganizationTriggerResource.md>)
@@ -551,7 +533,6 @@
   - [AlertAttackTriggerIntervalResource](<./objects/AlertAttackTriggerIntervalResource.md>)
   - [AlertAttackTriggerResource](<./objects/AlertAttackTriggerResource.md>)
   - [AlertAttackTriggerStatusResource](<./objects/AlertAttackTriggerStatusResource.md>)
-  - [AlertResource](<./objects/AlertResource.md>)
   - [ApplicationAttackResource](<./objects/ApplicationAttackResource.md>)
   - [AssessmentLicenseBreakdownResource](<./objects/AssessmentLicenseBreakdownResource.md>)
   - [AttackApplicationResource](<./objects/AttackApplicationResource.md>)
@@ -706,6 +687,7 @@
   - [SecurityCheckResponse](<./objects/SecurityCheckResponse.md>)
 - SECURITY REQUEST
   - [AuditRequest](<./objects/AuditRequest.md>)
+  - [IPExemptionRequest](<./objects/IPExemptionRequest.md>)
   - [IPRangeRequest](<./objects/IPRangeRequest.md>)
   - [SecurityControlsFilterRequest](<./objects/SecurityControlsFilterRequest.md>)
   - [SessionTimeoutRequest](<./objects/SessionTimeoutRequest.md>)
